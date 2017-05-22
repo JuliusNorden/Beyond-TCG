@@ -1,0 +1,46 @@
+{
+	"colossal-heart": {
+		"health": "30 / 10",
+		"effect": "At the end of each turn Heal 1 Damage from the Player(s) with the most Damage dealt to this Card."
+	},
+	"leprechaun": {
+		"health": "30 / 5",
+		"effect": "Whenever a Player gains Gold from a Card other than this Card; that Player gains 1 additional Gold."
+	},
+	"savage-bear": {
+		"health": "30 / 5",
+		"effect": "Pay 1 Gold: deal 2 Damage."
+	},
+	"trophy-beast": {
+		"health": "45 / 15",
+		"effect": "When this Card dies; the Player that killed it gains (10 / 5) Gold."
+	},
+	"gok-the-moving-earth": {
+		"health": "30 / 8",
+		"effect": "The maximum amount of Damage that can be dealt each turn is (10 / 5)."
+	},
+	"magic-presence": {
+		"health": "30 / 5",
+		"effect": "+1 Spell-Amp"
+	},
+	"bandit-cheiftain": {
+		"health": "30 / 5",
+		"effect": "Pay 1 Gold. Add a Card that has a gold cost greater than 2 Gold from your Deck to your Hand."
+	},
+	"arch-mage": {
+		"health": "30 / 5",
+		"effect": "If you finish a turn with Spell-Amp; gain 1 Mana."
+	},
+	"the-ferryman": {
+		"health": "30 / 5",
+		"effect": "Pay 2 Resources; add 1 Card from your Discard pile to your Hand."
+	},
+	"tortola-crystalline-tortoise": {
+		"health": "30 / 10",
+		"effect": "If any Damage would kill this Boss: halve the Damage first. If Tortola would die from the halved Damage: don't halve the Damage."
+	},
+	"kings-brood": {
+		"health": "30 / 5",
+		"effect": "Pay 3 Gold and 3 Mana: Summon a Boss Card (Lesser)."
+	}
+}
