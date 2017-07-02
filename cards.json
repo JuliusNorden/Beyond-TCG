@@ -1,133 +1,187 @@
 {
     "Draw": {
+        "attribute": "Psionic",
         "effect": "Draw 1 Card."
     },
     "Mana": {
+        "attribute": "Elemental",
         "effect": "Gain 2 Mana."
     },
     "Gold": {
+        "attribute": "Physical",
         "effect": "Gain 2 Gold."
     },
     "Blast": {
+        "attribute": "Physical",
         "effect": "Deal 2 Damage."
     },
     "Splash": {
+        "attribute": "Psionic",
         "effect": "Deal 1 Splash Damage."
     },
     "Spell-Amp": {
+        "attribute": "Elemental",
         "effect": "Gain +1 Spell-Amp. You may Play another Card this turn."
     },
     "Arcane Blast": {
+        "attribute": "Elemental",
         "effect": "Deal 1 Damage. Gain 1 Mana."
     },
     "Smuggle": {
+        "attribute": "Physical",
         "effect": "Gain 1 Gold. You may Play an additional Card this Turn."
     },
     "Plan Ahead": {
+        "attribute": "Psionic",
         "effect": "Pick a Card from your Deck. Put that Card on top of your Deck. You draw 1 less Card at the end of your turn."
     },
     "Quick Draw": {
+        "attribute": "Psionic",
         "effect": "Draw 2 Cards. Skip your next Turn."
     },
     "Sniper": {
+        "attribute": "Physical",
         "effect": "Use any Card in your Deck that deals Damage."
     },
     "Restoration": {
+        "attribute": "Psionic",
         "effect": "Remove any 5 Damage from a Boss card."
     },
     "Crystal Shards": {
+        "attribute": "Elemental",
         "effect": "Deal 3 Split Damage."
     },
     "Disrupt Magic": {
+        "attribute": "Elemental",
         "effect": "Destroy a Ritual."
     },
     "Copycat": {
+        "attribute": "Psionic",
         "effect": "Use 1 copy of the Card most previously Played."
     },
     "Advantage": {
+        "attribute": "Psionic",
         "effect": "Draw 1 Card. Instantly Play it without paying its Cost.",
         "cost": "1 Mana"
     },
     "Toll Fee": {
+        "attribute": "Physical",
         "effect": "Add 1 Card from your Deck to your Hand.",
         "cost": "1 Gold"
     },
     "Recycle": {
+        "attribute": "Psionic",
         "effect": "Add 1 Card from your Discard pile to your Hand.",
         "cost": "1 Gold"
     },
     "Fireball": {
+        "attribute": "Elemental",
         "effect": "Deal 3 Damage.",
         "cost": "1 Mana"
     },
     "Missile": {
+        "attribute": "Physical",
         "effect": "Deal 5 Damage.",
         "cost": "2 Gold"
     },
     "Gunshot": {
+        "attribute": "Physical",
         "effect": "Deal 2 Damage then put this Card on top of your Deck."
     },
     "Abolish": {
+        "attribute": "Psionic",
         "effect": "Discard 1 Card. Then Draw 1 Card."
     },
     "Arcane Trickery": {
+        "attribute": "Elemental",
         "effect": "Gain 3 Mana. You Draw 1 less Card at the end of your turn."
     },
     "Focus Energy": {
+        "attribute": "Elemental",
         "effect": "Gain 5 Mana until the end of your turn. You may Play an additional Card this turn."
     },
-    "Focus": {
-        "effect": "Your next Splashing card deals all the Splash damage to a single target."
-    },
     "Finders Keepers": {
+        "attribute": "Psionic",
         "type": "ritual",
         "effect": "Demand: Discard 3 Cards. \nReward: Banish this Card. \nWhenever you Discard a Card: add a Card from your Discard pile to your Hand."
     },
     "Arcane Storm": {
+        "attribute": "Elemental",
         "effect": "Deal 2 Damage. Then deal 2 Damage to the same target.",
         "cost": "2 Mana"
     },
     "Arcane Missile": {
+        "attribute": "Elemental",
         "effect": "Deal 8 Damage.",
         "cost": "3 Mana"
     },
     "Rapid Fire": {
+        "attribute": "Physical",
         "type": "Ritual",
         "effect": "Demand: Deal 10 Damage. \nReward: Shuffle all Damaging Cards from your Discard pile into your Deck. \nWhen you use a Card that deals Damage, you may use another Card that deals Damage. You may only use this effect twice per Turn."
     },
     "Rattle Bones": {
+        "attribute": "Psionic",
         "effect": "Deal 1 Damage for every 1 Card in your Discard pile.",
         "cost": "2 Mana"
     },
     "Energy Conversion": {
+        "attribute": "Elemental",
         "effect": "Pay any amount of Mana. Gain Spell-Amp equal to the amount of Mana paid. You may Play an additional Card this turn."
     },
     "I'm Alive": {
+        "attribute": "Psionic",
         "effect": "Return all of your Banished Cards to your Discard pile."
     },
     "Subvert": {
+        "attribute": "Psionic",
         "effect": "Banish all Cards in your Discard pile. Gain 1 Resource (split however you wish) for every 2 Cards you Banish using this Card’s effect."
     },
     "Death and Decay": {
+        "attribute": "Psionic",
         "effect": "Roll a 6-sided dice. Discard that many Cards from the top of your Deck and gain that many Resources (split however you wish)."
     },
     "Bragging": {
+        "attribute": "Psionic",
         "type": "ritual",
         "effect": "Demand: Your Opponent(s) Discard 2 Cards. \nWhenever an Opponent Discards a card; Draw a Card."
     },
     "Magic Circle": {
+        "attribute": "Elemental",
         "type": "ritual",
         "effect": "Demand: Deal 10 Damage. \n+2 Spell-Amp."
     },
     "Witch's Incantation": {
+        "attribute": "Elemental",
         "type": "ritual",
         "effect": "Demand: Use 5 Mana. \nReward: Summon a Boss (Lesser)."
     },
     "Deal with the Devil": {
+        "attribute": "Psionic",
         "effect": "Discard your Hand. Summon a Boss Card (Greater)."
     },
     "Crystal Artifact": {
+        "attribute": "Elemental",
         "type": "ritual",
         "effect": "Demand: Play 5 Cards. \nWhenever you Play a Card gain +1 Spell-Amp."
+    },
+    "Deny": {
+        "attribute": "Elemental",
+        "effect": "When an Opponent Plays a card that uses Mana, cancel that effect."
+    },
+    "Lightning Strike": {
+        "attribute": "Elemental",
+        "effect": "Roll a dice, deal 2 Elemental Damage plus what you rolled.",
+        "cost": "2 Mana"
+    },
+    "Aim for the weakspot": {
+        "attribute": "Physical",
+        "effect": "Deal Physical Damage equal to half of a Boss' current Health.",
+        "cost": "5 Gold"
+    },
+    "Enhanced Laser Rifle": {
+        "attribute": "Physical",
+        "effect": "Deal 15 Physical Damage.",
+        "cost": "7 Gold"
     }
 }
