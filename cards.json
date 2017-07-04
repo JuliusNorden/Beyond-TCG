@@ -183,5 +183,15 @@
         "attribute": "Physical",
         "effect": "Deal 15 Physical Damage.",
         "cost": "7 Gold"
+    },
+    "Mind Control": {
+        "attribute": "Psionic",
+        "effect": "Look at your opponent’s hand: Pick a card and add it to your hand.",
+        "cost": "2 Gold"
+    },
+    "Death Toll": {
+        "attribute": "Psionic",
+        "effect": "Use a Card from your Discard pile without paying for its Cost.",
+        "cost": "3 Gold"
     }
 }
