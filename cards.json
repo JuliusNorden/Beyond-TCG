@@ -193,5 +193,9 @@
         "attribute": "Psionic",
         "effect": "Use a Card from your Discard pile without paying for its Cost.",
         "cost": "3 Gold"
+    },
+    "Rite of Midas": {
+        "attribute": "Elemental",
+        "effect": "Discard a card. Gain gold equals to twice that Card’s resource cost."
     }
 }
