@@ -197,5 +197,10 @@
     "Rite of Midas": {
         "attribute": "Elemental",
         "effect": "Discard a card. Gain gold equals to twice that Card’s resource cost."
+    },
+    "Second Rite": {
+        "attribute": "Elemental",
+        "effect": "Copy a Ritual already in play.",
+        "cost": "1 Mana"
     }
 }
