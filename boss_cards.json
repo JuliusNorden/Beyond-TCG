@@ -1,46 +1,92 @@
 {
-	"Colossal Heart": {
-		"health": "30 / 10",
-		"effect": "At the end of each turn Heal 1 Damage from the Player(s) with the most Damage dealt to this Card."
+	"Colossal": {
+		"health": "10",
+                        "domains": ["Physical"],
+		"effect": "At the end of each turn, Heal this unit for 1.",
+                       "power": "1",
+                       "range": "1",
+                       "speed": "2"
 	},
 	"Leprechaun": {
-		"health": "30 / 5",
-		"effect": "Whenever a Player gains Gold from a Card other than this Card; that Player gains 1 additional Gold."
+		"health": "10",
+                        "domains": ["Physical"],
+		"effect": "Whenever you gain Gold from a Card other than by this effect; you gain 1 additional Gold.",
+                       "power": "1",
+                       "range": "2",
+                       "speed": "2"
 	},
-	"Savage Bear": {
-		"health": "30 / 5",
-		"effect": "Pay 1 Gold: deal 2 Damage."
+	"High-Elf Shaman": {
+		"health": "10",
+                        "domains": ["Psionic"],
+		"effect": "Take 1 Damage; deal 1x Damage.",
+                       "power": "1",
+                       "range": "2",
+                       "speed": "2"
 	},
 	"Trophy Beast": {
-		"health": "45 / 15",
-		"effect": "When this Card dies; the Player that killed it gains (10 / 5) Gold."
+		"health": "10",
+                        "domains": ["Elemental", "Psionic"],
+		"effect": "When this Unit dies; Your opponent gains Gold.",
+                       "power": "1",
+                       "range": "2",
+                       "speed": "3"
 	},
 	"G'ok the Moving Earth": {
-		"health": "30 / 8",
-		"effect": "The maximum amount of Damage that can be dealt each turn is (10 / 5)."
+		"health": "15",
+                        "domains": ["Physical"],
+		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 5.",
+                       "power": "2",
+                       "range": "1",
+                       "speed": "2"
 	},
 	"Magic Presence": {
-		"health": "30 / 5",
-		"effect": "+1 Spell-Amp"
+		"health": "10",
+                        "domains": ["Elemental"],
+		"power": "1",
+		"range": "2",
+		"speed": "2",
+		"effect": "Friendly units adjacent to this unit have +1 Power."
 	},
 	"Bandit Chieftain": {
-		"health": "30 / 5",
+		"health": "10",
+                        "domains": ["Physical"],
+		"power": "1",
+		"range": "2",
+		"speed": "2",
 		"effect": "Pay 1 Gold. Add a Card that has a gold cost greater than 2 Gold from your Deck to your Hand."
 	},
 	"Arch-mage": {
-		"health": "30 / 5",
+		"health": "10",
+                        "domains": ["Elemental"],
+		"power": "0",
+		"range": "3",
+		"speed": "2",
 		"effect": "If you finish a turn with Spell-Amp; gain 1 Mana."
 	},
 	"The Ferryman": {
-		"health": "30 / 5",
+		"health": "10",
+                        "domains": ["Psionic"],
+		"power": "1",
+		"range": "1",
+		"speed": "2",
 		"effect": "Pay 2 Resources; add 1 Card from your Discard pile to your Hand."
 	},
-	"Tortola, the Moving Earth": {
-		"health": "30 / 10",
-		"effect": "If any Damage would kill this Boss: halve the Damage first. If Tortola would die from the halved Damage: don't halve the Damage."
-	},
 	"King's Brood": {
-		"health": "30 / 5",
-		"effect": "Pay 3 Gold and 3 Mana: Summon a Boss Card (Lesser)."
+		"Domain": ["Physical", "Psionic", "Elemental"],
+"health": "10",
+		"power": "0",
+		"range": "1",
+		"speed": "2",
+		"effect": "Pay 3 Gold and 3 Mana: Summon a Unit."
+	},
+"Tortola, Crystalline Tortoise": {
+		"Domain": ["Physical"],
+"health": "10",
+		"power": "3",
+		"range": "1",
+		"speed": "1",
+		"effect": "Ignores range bonuses on Cards."
 	}
 }
+
+
