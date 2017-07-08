@@ -1,267 +1,267 @@
 {
-    "Draw": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Draw 1 Card.",
-        "range": "self"
-    },
-    "Mana": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Gain 2 Mana.",
-        "range": "self"
-    },
-    "Gold": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Gain 2 Gold.",
-        "range": "self"
-    },
-    "Blast": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "damage": "+1"
-    },
-    "Splash": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Splash",
-        "damage": "x1"
-    },
-    "Split": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Split",
-        "damage": "x1"
-    },
-    "Construction": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Construct a Building.",
-        "cost": "4 Resources",
-        "range": "territorial"
-    },
-    "Power-up": {
-        "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Gain +1 Power.",
-        "range": "self"
-    },
-    "Spell-Amp": {
-        "domains": ["Elemental"],
-        "effect": "Gain +1 Power.",
-        "range": "self"
-    },
-    "Arcane Blast": {
-        "domains": ["Elemental"],
-        "effect": "Gain 1 Mana.",
-        "damage": "x1"
-    },
-    "Tax": {
-        "domains": ["Physical"],
-        "effect": "Gain 1 Gold per Unit you control.",
-        "range": "self"
-    },
-    "Plan Ahead": {
-        "domains": ["Psionic"],
-        "effect": "Pick a Card from your Deck. Put that Card on top of your Deck. You draw 1 less Card at the end of your turn.",
-        "range": "self"
-    },
-    "Quick Draw": {
-        "domains": ["Psionic"],
-        "effect": "Draw 2 Cards. Skip your next Turn.",
-        "range": "self"
-    },
-    "Sniper": {
-        "domains": ["Physical", "Elemental"],
-        "effect": "Use any Card in your Deck that deals Damage.",
-        "range": "self"
-    },
-    "Restoration": {
-        "domains": ["Psionic"],
-        "effect": "Heal",
-        "damage": "x2"
-    },
-    "Disrupt Magic": {
-        "domains": ["Elemental", "Psionic"],
-        "effect": "Destroy a Ritual.",
-        "range": "global"
-    },
-    "Copycat": {
-        "domains": ["Psionic"],
-        "effect": "Use 1 copy of the Card most previously Played by a target Unit.",
-        "range": "global"
-    },
-    "Advantage": {
-        "domains": ["Psionic"],
-        "effect": "Draw 1 Card. Instantly Play it without paying its Cost. If you cannot Play the Card, Discard it.",
-        "cost": "1 Mana",
-        "range": "self"
-    },
-    "Toll Fee": {
-        "domains": ["Physical"],
-        "effect": "Add 1 Card from your Deck to your Hand.",
-        "cost": "1 Gold",
-        "range": "self"
-    },
-    "Recycle": {
-        "domains": ["Psionic"],
-        "effect": "Add 1 Card from your Discard pile to your Hand.",
-        "cost": "1 Gold",
-        "range": "self"
-    },
-    "Fireball": {
-        "domains": ["Elemental"],
-        "damage": "+2",
-        "cost": "1 Mana"
-    },
-    "Missile": {
-        "domains": ["Physical"],
-        "damage": "2x",
-        "cost": "2 Gold"
-    },
-    "Gunshot": {
-        "domains": ["Physical"],
-        "effect": "Put this Card on top of your Deck.",
-        "damage": "1x"
-    },
-    "Abolish": {
-        "domains": ["Psionic"],
-        "effect": "Discard 1 Card. Then Draw 1 Card.",
-        "range": "self"
-    },
-    "Arcane Trickery": {
-        "domains": ["Elemental"],
-        "effect": "Gain 3 Mana. You Draw 1 less Card at the end of your turn.",
-        "range": "self"
-    },
-    "Focus Energy": {
-        "domains": ["Elemental", "Psionic"],
-        "effect": "Gain 5 Mana until the end of your turn.",
-        "range": "self"
-    },
-    "Finders Keepers": {
-        "domains": ["Psionic"],
-        "type": "Ritual",
-        "effect": "Whenever you Discard a Card: add a Card from your Discard pile to your Hand.",
-        "demand": "Discard 3 Cards",
-        "reward": "Banish this Card",
-        "range": "self"
-    },
-    "Arcane Storm": {
-        "domains": ["Elemental"],
-        "effect": "Deals Damage twice.",
-        "damage": "+1",
-        "cost": "2 Mana"
-    },
-    "Arcane Missile": {
-        "domains": ["Elemental"],
-        "damage": "x2 +2",
-        "cost": "3 Mana"
-    },
-    "Rapid Fire": {
-        "domains": ["Physical"],
-        "type": "Ritual",
-        "effect": "When you use a Card that deals Damage, you may use another Card that deals Damage. You may only use this effect once per Turn.",
-        "demand": "Deal 10 Damage.",
-        "reward": "Shuffle all Damaging Cards from your Discard pile into your Deck."
-    },
-    "Rattle Bones": {
-        "domains": ["Psionic"],
-        "effect": "Deal 1 Damage extra for every 2 Cards in your Discard pile.",
-        "damage": "?",
-        "cost": "2 Mana"
-    },
-    "Energy Conversion": {
-        "domains": ["Elemental"],
-        "effect": "Pay any amount of Power, gain 3x as much Mana.",
-        "range": "self"
-    },
-    "I'm Alive": {
-        "domains": ["Psionic"],
-        "effect": "Return all of your Banished Cards to your Discard pile.",
-        "range": "self"
-    },
-    "Subvert": {
-        "domains": ["Psionic"],
-        "effect": "Banish all Cards in your Discard pile. Gain 1 Resource (split however you wish) for every 2 Cards you Banish using this Card’s effect.",
-        "range": "self"
-    },
-    "Death and Decay": {
-        "domains": ["Psionic"],
-        "effect": "Roll a 6-sided dice. Discard that many Cards from the top of your Deck and gain that many Resources (split however you wish).",
-        "range": "self"
-    },
-    "Bragging": {
-        "domains": ["Psionic"],
-        "type": "Ritual",
-        "demand": "Your Opponent(s) Discard 2 Cards.",
-        "reward": "Draw 2 Cards"
-    },
-    "Magic Circle": {
-        "domains": ["Elemental"],
-        "type": "Ritual",
-        "effect": "+1 Power to all friendly units.",
-        "demand": "A friendly unit takes Damage.",
-    },
-    "Witch's Incantation": {
-        "domains": ["Elemental"],
-        "type": "Ritual",
-        "demand": "Use 5 Mana.",
-        "reward": "Summon a Unit. Place it on this Ritual."
-    },
-    "Deal with the Devil": {
-        "domains": ["Psionic"],
-        "effect": "Discard your Hand. Summon two Units.",
-        "range": "self"
-    },
-    "Crystal Artifact": {
-        "domains": ["Elemental"],
-        "type": "Ritual",
-        "effect": "Whenever you Play a Card gain +1 Mana.",
-        "demand": "Play 5 Cards."
-    },
-    "Deny": {
-        "domains": ["Elemental"],
-        "effect": "Next time the targeted unit Plays a card that uses Mana, cancel that effect."
-    },
-    "Lightning Strike": {
-        "domains": ["Elemental"],
-        "effect": "Roll a 6-sided dice, add what you rolled to your Damage.",
-        "damage": "x1 +?",
-        "cost": "2 Mana"
-    },
-    "Aim for the weakspot": {
-        "domains": ["Physical"],
-        "effect": "Deal Physical Damage equal to half of a Unit’s current Health.",
-        "damage": "?",
-        "cost": "5 Gold",
-    },
-    "Enhanced Laser Rifle": {
-        "domains": ["Physical"],
-        "damage": "x3",
-        "cost": "7 Gold",
-        "range": "global"
-    },
-    "Mind Control": {
-        "domains": ["Psionic"],
-        "effect": "Target enemy unit acts as your unit this turn.",
-        "cost": "2 Gold",
-        "range": "adjacent"
-    },
-    "Death Toll": {
-        "domains": ["Psionic"],
-        "effect": "Use a Card from your Discard pile without paying for its Cost.",
-        "cost": "4 Gold",
-        "range": "self"
-    },
-    "Rite of Midas": {
-        "domains": ["Physical"],
-        "effect": "Discard a Card. Gain Dold equals to twice that Card’s resource cost.",
-        "range": "self"
-    },
-    "Second Rite": {
-        "domains": ["Elemental"],
-        "effect": "Copy a Ritual. Place it at the using Units feet.",
-        "cost": "1 Mana",
-        "range": "global"
-    },
-    "Electromagnetic Pulse": {
-        "domains": ["Elemental"],
-        "effect": "Splash. All units Damaged cannot Play Cards that require Mana during your opponent’s next turn.",
-        "damage": "x1",
-        "cost": "2 Mana"
-    }
+	"Draw": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"effect": "Draw 1 Card.",
+		"range": "self"
+	},
+	"Mana": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"effect": "Gain 2 Mana.",
+		"range": "self"
+	},
+	"Gold": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"effect": "Gain 2 Gold.",
+		"range": "self"
+	},
+	"Blast": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"damage": "+1"
+	},
+	"Splash": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"effect": "Splash",
+		"damage": "x1"
+	},
+	"Split": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"effect": "Split",
+		"damage": "x1"
+	},
+	"Construction": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"effect": "Construct a Building.",
+		"cost": "4 Resources",
+		"range": "territorial"
+	},
+	"Power-up": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"effect": "Gain +1 Power.",
+		"range": "self"
+	},
+	"Spell-Amp": {
+		"domains": ["Elemental"],
+		"effect": "Gain +1 Power.",
+		"range": "self"
+	},
+	"Arcane Blast": {
+		"domains": ["Elemental"],
+		"effect": "Gain 1 Mana.",
+		"damage": "x1"
+	},
+	"Tax": {
+		"domains": ["Physical"],
+		"effect": "Gain 1 Gold per Unit you control.",
+		"range": "self"
+	},
+	"Plan Ahead": {
+		"domains": ["Psionic"],
+		"effect": "Pick a Card from your Deck. Put that Card on top of your Deck. You draw 1 less Card at the end of your turn.",
+		"range": "self"
+	},
+	"Quick Draw": {
+		"domains": ["Psionic"],
+		"effect": "Draw 2 Cards. Skip your next Turn.",
+		"range": "self"
+	},
+	"Sniper": {
+		"domains": ["Physical", "Elemental"],
+		"effect": "Use any Card in your Deck that deals Damage.",
+		"range": "self"
+	},
+	"Restoration": {
+		"domains": ["Psionic"],
+		"effect": "Heal",
+		"damage": "x2"
+	},
+	"Disrupt Magic": {
+		"domains": ["Elemental", "Psionic"],
+		"effect": "Destroy a Ritual.",
+		"range": "global"
+	},
+	"Copycat": {
+		"domains": ["Psionic"],
+		"effect": "Use 1 copy of the Card most previously Played by a target Unit.",
+		"range": "global"
+	},
+	"Advantage": {
+		"domains": ["Psionic"],
+		"effect": "Draw 1 Card. Instantly Play it without paying its Cost. If you cannot Play the Card, Discard it.",
+		"cost": "1 Mana",
+		"range": "self"
+	},
+	"Toll Fee": {
+		"domains": ["Physical"],
+		"effect": "Add 1 Card from your Deck to your Hand.",
+		"cost": "1 Gold",
+		"range": "self"
+	},
+	"Recycle": {
+		"domains": ["Psionic"],
+		"effect": "Add 1 Card from your Discard pile to your Hand.",
+		"cost": "1 Gold",
+		"range": "self"
+	},
+	"Fireball": {
+		"domains": ["Elemental"],
+		"damage": "+2",
+		"cost": "1 Mana"
+	},
+	"Missile": {
+		"domains": ["Physical"],
+		"damage": "2x",
+		"cost": "2 Gold"
+	},
+	"Gunshot": {
+		"domains": ["Physical"],
+		"effect": "Put this Card on top of your Deck.",
+		"damage": "1x"
+	},
+	"Abolish": {
+		"domains": ["Psionic"],
+		"effect": "Discard 1 Card. Then Draw 1 Card.",
+		"range": "self"
+	},
+	"Arcane Trickery": {
+		"domains": ["Elemental"],
+		"effect": "Gain 3 Mana. You Draw 1 less Card at the end of your turn.",
+		"range": "self"
+	},
+	"Focus Energy": {
+		"domains": ["Elemental", "Psionic"],
+		"effect": "Gain 5 Mana until the end of your turn.",
+		"range": "self"
+	},
+	"Finders Keepers": {
+		"domains": ["Psionic"],
+		"type": "Ritual",
+		"effect": "Whenever you Discard a Card: add a Card from your Discard pile to your Hand.",
+		"demand": "Discard 3 Cards",
+		"reward": "Banish this Card",
+		"range": "self"
+	},
+	"Arcane Storm": {
+		"domains": ["Elemental"],
+		"effect": "Deals Damage twice.",
+		"damage": "+1",
+		"cost": "2 Mana"
+	},
+	"Arcane Missile": {
+		"domains": ["Elemental"],
+		"damage": "x2 +2",
+		"cost": "3 Mana"
+	},
+	"Rapid Fire": {
+		"domains": ["Physical"],
+		"type": "Ritual",
+		"effect": "When you use a Card that deals Damage, you may use another Card that deals Damage. You may only use this effect once per Turn.",
+		"demand": "Deal 10 Damage.",
+		"reward": "Shuffle all Damaging Cards from your Discard pile into your Deck."
+	},
+	"Rattle Bones": {
+		"domains": ["Psionic"],
+		"effect": "Deal 1 Damage extra for every 2 Cards in your Discard pile.",
+		"damage": "?",
+		"cost": "2 Mana"
+	},
+	"Energy Conversion": {
+		"domains": ["Elemental"],
+		"effect": "Pay any amount of Power, gain 3x as much Mana.",
+		"range": "self"
+	},
+	"I'm Alive": {
+		"domains": ["Psionic"],
+		"effect": "Return all of your Banished Cards to your Discard pile.",
+		"range": "self"
+	},
+	"Subvert": {
+		"domains": ["Psionic"],
+		"effect": "Banish all Cards in your Discard pile. Gain 1 Resource (split however you wish) for every 2 Cards you Banish using this Card’s effect.",
+		"range": "self"
+	},
+	"Death and Decay": {
+		"domains": ["Psionic"],
+		"effect": "Roll a 6-sided dice. Discard that many Cards from the top of your Deck and gain that many Resources (split however you wish).",
+		"range": "self"
+	},
+	"Bragging": {
+		"domains": ["Psionic"],
+		"type": "Ritual",
+		"demand": "Your Opponent(s) Discard 2 Cards.",
+		"reward": "Draw 2 Cards"
+	},
+	"Magic Circle": {
+		"domains": ["Elemental"],
+		"type": "Ritual",
+		"effect": "+1 Power to all friendly units.",
+		"demand": "A friendly unit takes Damage."
+	},
+	"Witch's Incantation": {
+		"domains": ["Elemental"],
+		"type": "Ritual",
+		"demand": "Use 5 Mana.",
+		"reward": "Summon a Unit. Place it on this Ritual."
+	},
+	"Deal with the Devil": {
+		"domains": ["Psionic"],
+		"effect": "Discard your Hand. Summon two Units.",
+		"range": "self"
+	},
+	"Crystal Artifact": {
+		"domains": ["Elemental"],
+		"type": "Ritual",
+		"effect": "Whenever you Play a Card gain +1 Mana.",
+		"demand": "Play 5 Cards."
+	},
+	"Deny": {
+		"domains": ["Elemental"],
+		"effect": "Next time the targeted unit Plays a card that uses Mana, cancel that effect."
+	},
+	"Lightning Strike": {
+		"domains": ["Elemental"],
+		"effect": "Roll a 6-sided dice, add what you rolled to your Damage.",
+		"damage": "x1 +?",
+		"cost": "2 Mana"
+	},
+	"Aim for the weakspot": {
+		"domains": ["Physical"],
+		"effect": "Deal Physical Damage equal to half of a Unit’s current Health.",
+		"damage": "?",
+		"cost": "5 Gold"
+	},
+	"Enhanced Laser Rifle": {
+		"domains": ["Physical"],
+		"damage": "x3",
+		"cost": "7 Gold",
+		"range": "global"
+	},
+	"Mind Control": {
+		"domains": ["Psionic"],
+		"effect": "Target enemy unit acts as your unit this turn.",
+		"cost": "2 Gold",
+		"range": "adjacent"
+	},
+	"Death Toll": {
+		"domains": ["Psionic"],
+		"effect": "Use a Card from your Discard pile without paying for its Cost.",
+		"cost": "4 Gold",
+		"range": "self"
+	},
+	"Rite of Midas": {
+		"domains": ["Physical"],
+		"effect": "Discard a Card. Gain Dold equals to twice that Card’s resource cost.",
+		"range": "self"
+	},
+	"Second Rite": {
+		"domains": ["Elemental"],
+		"effect": "Copy a Ritual. Place it at the using Units feet.",
+		"cost": "1 Mana",
+		"range": "global"
+	},
+	"Electromagnetic Pulse": {
+		"domains": ["Elemental"],
+		"effect": "Splash. All units Damaged cannot Play Cards that require Mana during your opponent’s next turn.",
+		"damage": "x1",
+		"cost": "2 Mana"
+	}
 }
