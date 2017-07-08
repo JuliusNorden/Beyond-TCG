@@ -263,4 +263,5 @@
         "effect": "Splash. All units Damaged cannot Play Cards that require Mana during your opponent’s next turn.",
         "damage": "x1",
         "cost": "2 Mana"
+    }
 }
