@@ -30,7 +30,7 @@
     },
     "Construction": {
         "domains": ["Psionic", "Elemental", "Physical"],
-        "effect": "Construct a Building.”,
+        "effect": "Construct a Building.",
         "cost": "4 Resources",
         "range": "territorial"
     },
