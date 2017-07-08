@@ -72,7 +72,7 @@
 		"effect": "Pay 2 Resources; add 1 Card from your Discard pile to your Hand."
 	},
 	"King's Brood": {
-		"Domain": ["Physical", "Psionic", "Elemental"],
+		"domains": ["Physical", "Psionic", "Elemental"],
 "health": "10",
 		"power": "0",
 		"range": "1",
@@ -80,7 +80,7 @@
 		"effect": "Pay 3 Gold and 3 Mana: Summon a Unit."
 	},
 "Tortola, Crystalline Tortoise": {
-		"Domain": ["Physical"],
+		"domains": ["Physical"],
 "health": "10",
 		"power": "3",
 		"range": "1",
