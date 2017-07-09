@@ -32,7 +32,7 @@
                        "speed": "3"
 	},
 	"G'ok the Moving Earth": {
-		"health": "15",
+		"health": "10",
                         "domains": ["Physical"],
 		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 5.",
                        "power": "2",
@@ -76,8 +76,8 @@
 "health": "10",
 		"power": "0",
 		"range": "1",
-		"speed": "2",
-		"effect": "Pay 3 Gold and 3 Mana: Summon a Unit."
+		"speed": "1",
+		"effect": "Pay 2 Gold and 2 Mana: Summon a Unit."
 	},
 "Tortola, Crystalline Tortoise": {
 		"domains": ["Physical"],
