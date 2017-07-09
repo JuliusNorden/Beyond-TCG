@@ -238,7 +238,7 @@
 	"Mind Control": {
 		"domains": ["Psionic"],
 		"effect": "Target enemy unit acts as your unit this turn.",
-		"cost": "2 Gold",
+		"cost": "1 Gold",
 		"range": "adjacent"
 	},
 	"Death Toll": {
@@ -249,7 +249,7 @@
 	},
 	"Rite of Midas": {
 		"domains": ["Physical"],
-		"effect": "Discard a Card. Gain Dold equals to twice that Card’s resource cost.",
+		"effect": "Banish a Card. Gain Gold equals to that Card’s Resource cost.",
 		"range": "self"
 	},
 	"Second Rite": {
@@ -317,5 +317,38 @@
 		"effect": "Deals Damage to all Units and Buildings in a line between the targeted Unit or Building and the casting Unit.",
 		"cost": "1 Gold",
 		"damage": "+1"
-	}
+	},
+	"Forced Retreat": {
+        	"domains": ["Physical"],
+       	 	"cost": "1 Resource",
+        	"effect": "Knockback 4.",
+        	"damage": "x1",
+        	"range": "Adjacent"
+    	},
+    	"Gatling Gun": {
+        	"domains": ["Physical"],
+        	"cost": "4 Gold",
+        	"damage": "x3",
+        	"range": "Adjacent"
+    	},
+    	"Time Bomb": {
+       		 "domains": ["Elemental"],
+       		 "cost": "3 Mana",
+       		 "effect": "When this ritual is destroyed or activated, Splash 2 around self.",
+       		 "demand": "Start your turn.",
+       		 "damage": "x2",
+       		 "range": "Territorial"
+   	 },
+   	 "Breed": {
+       		 "domains": ["Physical"],
+        	"cost": "4 Resources",
+       		 "effect": "If there is a friendly Unit adjacent to the casting Unit and they are within friendly Territory, Summon a Unit. \nThe other unit cannot Play or have Played a Card this turn.",
+       		 "range": "Self"
+   	 },
+   	 "Magnetize": {
+       		 "domains": ["Psionic"],
+       		 "cost": "2 Resources",
+       		 "effect": "Splash 2. You can place any affected Unit anywhere else within the target radius.",
+       		 "damage": "x1"
+    	}
 }
