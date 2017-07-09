@@ -73,18 +73,25 @@
 	},
 	"King's Brood": {
 		"domains": ["Physical", "Psionic", "Elemental"],
-"health": "10",
+		"health": "10",
 		"power": "0",
 		"range": "1",
 		"speed": "1",
 		"effect": "Pay 2 Gold and 2 Mana: Summon a Unit."
 	},
-"Tortola, Crystalline Tortoise": {
+        "Tortola, Crystalline Tortoise": {
 		"domains": ["Physical"],
-"health": "10",
+		"health": "10",
 		"power": "3",
 		"range": "1",
 		"speed": "1",
 		"effect": "Ignores range bonuses on Cards."
+	},
+        "White Steed": {
+		"domains": ["Psionic"],
+		"health": "10",
+		"power": "0",
+		"range": "0",
+		"speed": "5"
 	}
 }
