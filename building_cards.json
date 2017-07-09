@@ -1,0 +1,17 @@
+{
+        "Arcane Tower": {
+                "health": "3",
+		"domains": ["Elemental"],
+		"effect": "At the start of your turn gain 1 Mana for each friendly Unit in a 2 Tile AoE."
+	},
+	"Territorial Flag": {
+		"health": "1",
+		"domains": ["Physical", "Psionic", "Elemental"],
+		"effect": "You control the Tiles adjacent to this Building."
+	},
+	"Archer Tower": {
+		"health": "5",
+		"domains": ["Physical"],
+		"effect": "At the end of your turn, deal 1 Damage to an Enemy Unit adjacent to this Building."
+        }
+}
