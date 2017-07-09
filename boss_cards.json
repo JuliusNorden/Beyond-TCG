@@ -9,39 +9,39 @@
 	},
 	"Leprechaun": {
 		"health": "10",
-                        "domains": ["Physical"],
+                "domains": ["Physical"],
 		"effect": "Whenever you gain Gold from a Card other than by this effect; you gain 1 additional Gold.",
-                       "power": "1",
-                       "range": "2",
-                       "speed": "2"
+                "power": "1",
+                "range": "2",
+                "speed": "2"
 	},
 	"High-Elf Shaman": {
 		"health": "10",
-                        "domains": ["Psionic"],
+                "domains": ["Psionic"],
 		"effect": "Take 1 Damage; deal 1x Damage.",
-                       "power": "1",
-                       "range": "2",
-                       "speed": "2"
+                "power": "1",
+                "range": "2",
+                "speed": "2"
 	},
 	"Trophy Beast": {
 		"health": "10",
-                        "domains": ["Elemental", "Psionic"],
+                "domains": ["Elemental", "Psionic"],
 		"effect": "When this Unit dies; Your opponent gains Gold.",
-                       "power": "1",
-                       "range": "2",
-                       "speed": "3"
+                "power": "1",
+                "range": "2",
+                "speed": "3"
 	},
 	"G'ok the Moving Earth": {
 		"health": "10",
-                        "domains": ["Physical"],
+                "domains": ["Physical"],
 		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 5.",
-                       "power": "2",
-                       "range": "1",
-                       "speed": "2"
+                "power": "2",
+                "range": "1",
+                "speed": "2"
 	},
 	"Magic Presence": {
 		"health": "10",
-                        "domains": ["Elemental"],
+                "domains": ["Elemental"],
 		"power": "1",
 		"range": "2",
 		"speed": "2",
@@ -57,15 +57,15 @@
 	},
 	"Arch-mage": {
 		"health": "10",
-                        "domains": ["Elemental"],
+                "domains": ["Elemental"],
 		"power": "0",
 		"range": "3",
 		"speed": "2",
-		"effect": "If you finish a turn with Spell-Amp; gain 1 Mana."
+		"effect": "When you spend 2 or more Mana; Gain 1 Power."
 	},
 	"The Ferryman": {
 		"health": "10",
-                        "domains": ["Psionic"],
+                "domains": ["Psionic"],
 		"power": "1",
 		"range": "1",
 		"speed": "2",
