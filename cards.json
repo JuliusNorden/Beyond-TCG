@@ -160,7 +160,7 @@
 	},
 	"Rattle Bones": {
 		"domains": ["Psionic"],
-		"effect": "Deal 1 Damage extra for every 2 Cards in your Discard pile.",
+		"effect": "Deal 1 Damage extra for every 3 Cards in your Discard pile.",
 		"damage": "x1 +?",
 		"cost": "2 Mana"
 	},
