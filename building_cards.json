@@ -2,16 +2,25 @@
         "Arcane Tower": {
                 "health": "3",
 		"domains": ["Elemental"],
-		"effect": "At the start of your turn gain 1 Mana for each friendly Unit in a 2 Tile AoE."
+		"effect": "At the start of your turn gain 1 Mana for each friendly Unit in a 2 Tile AoE.",
+		"zone": "Friendly Territory"
 	},
 	"Territorial Flag": {
 		"health": "1",
 		"domains": ["Physical", "Psionic", "Elemental"],
-		"effect": "You control the Tiles adjacent to this Building."
+		"effect": "You control the Tiles adjacent to this Building.",
+		"zone": "Friendly Territory"
 	},
 	"Archer Tower": {
 		"health": "5",
 		"domains": ["Physical"],
-		"effect": "At the end of your turn, deal 1 Damage to an Enemy Unit adjacent to this Building."
+		"effect": "At the end of your turn, deal 1 Damage to an Enemy Unit adjacent to this Building.",
+		"zone": "Friendly Territory"
+        },
+	"Beacon of Light": {
+		"health": "5",
+		"domains": ["Psionic"],
+		"effect": "At the end of your turn, Heal 1 damage to all friendly units adjacent to this Building.",
+		"zone": "Any Territory"
         }
 }
