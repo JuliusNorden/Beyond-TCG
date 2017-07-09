@@ -263,5 +263,59 @@
 		"effect": "Splash. All units Damaged cannot Play Cards that require Mana during your opponent’s next turn.",
 		"damage": "x1",
 		"cost": "2 Mana"
+	},
+	"Tractor Beam": {
+		"domains": ["Psionic"],
+		"effect": "Summon a Unit.",
+		"cost": "4 Resources",
+		"range": "self"
+	},
+	"Mind Flay": {
+		"domains": ["Psionic"],
+		"effect": "Deal damage to a Unit equal to their Power.",
+		"cost": "1 Resource"
+	},
+	"Weaken": {
+		"domains": ["Psionic"],
+		"effect": "Reduce the target Unit's Power by 1.",
+		"cost": "2 Resources",
+		"range": "global"
+	},
+	"Teleport": {
+		"domains": ["Psionic"],
+		"effect": "Place this Unit on any Tile.",
+		"cost": "1 Resource",
+		"range": "global"
+	},
+	"Future Sight": {
+		"domains": ["Psionic"],
+		"effect": "Look at the top 3 cards of your deck. Pick one and add it to your hand, then shuffle the rest into your deck.",
+		"range": "self"
+	},
+	"Dash": {
+		"domains": ["Psionic", "Physical", "Elemental"],
+		"effect": "Double this Unit's Speed this turn.",
+		"range": "self"
+	},
+	"Reality Rift": {
+		"domains": ["Psionic"],
+		"effect": "Swap this Unit's position with another Unit's position.",
+		"range": "global"
+	},
+	"Shockwave": {
+		"domains": ["Psionic", "Elemental"],
+		"effect": "Splash. Knockback 2."
+	},
+	"Explosion": {
+		"domains": ["Physical"],
+		"effect": "Knockback. Splash.",
+		"cost": "2 Gold",
+		"damage": "+2"
+	},
+	"Laser": {
+		"domains": ["Physical"],
+		"effect": "Deals Damage to all Units and Buildings in a line between the targeted Unit or Building and the casting Unit.",
+		"cost": "1 Gold",
+		"damage": "+1"
 	}
 }
