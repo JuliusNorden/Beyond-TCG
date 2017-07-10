@@ -2,13 +2,13 @@
         "Fountain": {
                 "health": "3",
 		"domains": ["Elemental"],
-		"effect": "At the start of your turn gain 1 Mana for every 2 friendly Units in a 2 Tile AoE.",
+		"effect": "At the start of your turn gain 1 Mana for every 2 friendly Units in a 1 Tile AoE.",
 		"zone": "Friendly Territory"
 	},
 	"Market": {
                 "health": "3",
 		"domains": ["Physical"],
-		"effect": "At the start of your turn gain 1 Gold for every 2 friendly Units in a 2 Tile AoE.",
+		"effect": "At the start of your turn gain 1 Gold for every 2 friendly Units in a 1 Tile AoE.",
 		"zone": "Friendly Territory"
 	},
 	"Territorial Flag": {
