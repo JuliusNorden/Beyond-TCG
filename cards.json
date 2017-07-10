@@ -363,5 +363,14 @@
 		 "type": "Trinket",
        		 "effect": "+1 Range",
        		 "range": "self"
+    	},
+   	 "Reconstruct": {
+       		 "domains": ["Physical", "Elemental", "Psionic"],
+       		 "effect": "Move the targeted Friendly Building to a new valid location.",
+		 "range": "global"
+    	},
+   	 "Repair": {
+       		 "domains": ["Physical", "Elemental", "Psionic"],
+       		 "effect": "Fully heal a Building."
     	}
 }
