@@ -2,7 +2,7 @@
 	"Colossal": {
 		"health": "20",
                 "domains": ["Physical"],
-		"effect": "At the end of each turn, Heal this unit for 2.",
+		"effect": "At the end of each of your turns, Heal this unit for 2.",
                 "power": "2",
                 "range": "1",
                 "speed": "2",
@@ -46,7 +46,7 @@
 	"G'ok the Moving Earth": {
 		"health": "20",
                 "domains": ["Physical"],
-		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 5.",
+		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 10.",
                 "power": "4",
                 "range": "1",
                 "speed": "2",
@@ -60,7 +60,7 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"effect": "Friendly units adjacent to this unit have +1 Power.",
+		"effect": "Friendly units adjacent to this unit have +2 Power.",
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
