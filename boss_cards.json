@@ -1,52 +1,8 @@
 {
 	"Colossal": {
-		"health": "10",
+		"health": "20",
                 "domains": ["Physical"],
 		"effect": "At the end of each turn, Heal this unit for 1.",
-                "power": "1",
-                "range": "1",
-                "speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
-		"spellSlots": "1"
-	},
-	"Leprechaun": {
-		"health": "10",
-                "domains": ["Physical"],
-		"effect": "Whenever you gain Gold from a Card other than by this effect; you gain 1 additional Gold.",
-                "power": "1",
-                "range": "2",
-                "speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
-		"spellSlots": "1"
-	},
-	"High-Elf Shaman": {
-		"health": "10",
-                "domains": ["Psionic"],
-		"effect": "Take 1 Damage; deal 1x Damage.",
-                "power": "1",
-                "range": "2",
-                "speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
-		"spellSlots": "1"
-	},
-	"Trophy Beast": {
-		"health": "10",
-                "domains": ["Elemental", "Psionic"],
-		"effect": "When this Unit dies; Your opponent gains 5 Gold.",
-                "power": "1",
-                "range": "2",
-                "speed": "3",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
-		"spellSlots": "1"
-	},
-	"G'ok the Moving Earth": {
-		"health": "10",
-                "domains": ["Physical"],
-		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 5.",
                 "power": "2",
                 "range": "1",
                 "speed": "2",
@@ -54,10 +10,54 @@
 		"trinketSlots": "1",
 		"spellSlots": "1"
 	},
+	"Leprechaun": {
+		"health": "20",
+                "domains": ["Physical"],
+		"effect": "Whenever you gain Gold from a Card other than by this effect; you gain 1 additional Gold.",
+                "power": "2",
+                "range": "2",
+                "speed": "2",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1"
+	},
+	"High-Elf Shaman": {
+		"health": "20",
+                "domains": ["Psionic"],
+		"effect": "Take 1 Damage; deal 1x Damage.",
+                "power": "2",
+                "range": "2",
+                "speed": "2",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1"
+	},
+	"Trophy Beast": {
+		"health": "20",
+                "domains": ["Elemental", "Psionic"],
+		"effect": "When this Unit dies; Your opponent gains 5 Gold.",
+                "power": "2",
+                "range": "2",
+                "speed": "3",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1"
+	},
+	"G'ok the Moving Earth": {
+		"health": "20",
+                "domains": ["Physical"],
+		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 5.",
+                "power": "4",
+                "range": "1",
+                "speed": "2",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1"
+	},
 	"Magic Presence": {
-		"health": "10",
+		"health": "20",
                 "domains": ["Elemental"],
-		"power": "1",
+		"power": "2",
 		"range": "2",
 		"speed": "2",
 		"effect": "Friendly units adjacent to this unit have +1 Power.",
@@ -66,9 +66,9 @@
 		"spellSlots": "1"
 	},
 	"Bandit Chieftain": {
-		"health": "10",
+		"health": "20",
                         "domains": ["Physical"],
-		"power": "1",
+		"power": "2",
 		"range": "2",
 		"speed": "2",
 		"effect": "Pay 1 Gold. Add a Card that has a gold cost greater than 2 Gold from your Deck to your Hand.",
@@ -77,7 +77,7 @@
 		"spellSlots": "1"
 	},
 	"Arch-mage": {
-		"health": "10",
+		"health": "20",
                 "domains": ["Elemental"],
 		"power": "0",
 		"range": "3",
@@ -88,9 +88,9 @@
 		"spellSlots": "1"
 	},
 	"The Ferryman": {
-		"health": "10",
+		"health": "20",
                 "domains": ["Psionic"],
-		"power": "1",
+		"power": "2",
 		"range": "1",
 		"speed": "2",
 		"effect": "Pay 2 Resources; add 1 Card from your Discard pile to your Hand.",
@@ -100,7 +100,7 @@
 	},
 	"King's Brood": {
 		"domains": ["Physical", "Psionic", "Elemental"],
-		"health": "10",
+		"health": "20",
 		"power": "0",
 		"range": "1",
 		"speed": "1",
@@ -111,8 +111,8 @@
 	},
         "Tortola, Crystalline Tortoise": {
 		"domains": ["Physical"],
-		"health": "10",
-		"power": "3",
+		"health": "20",
+		"power": "6",
 		"range": "1",
 		"speed": "1",
 		"effect": "Ignores range bonuses on Cards.",
@@ -122,10 +122,31 @@
 	},
         "White Steed": {
 		"domains": ["Psionic"],
-		"health": "10",
+		"health": "20",
 		"power": "0",
 		"range": "0",
 		"speed": "5",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1"
+	},
+        "Clockwork, the Great Machine": {
+		"domains": ["Physical"],
+		"health": "20",
+		"power": "2",
+		"range": "2",
+		"speed": "2",
+		"effect": "You can construct 1 extra Basic building each turn. Has double range when placing Buildings.",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1"
+	},
+        "Kharen, the Bounty Hunter": {
+		"domains": ["Physical"],
+		"health": "20",
+		"power": "2",
+		"range": "4",
+		"speed": "1",
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
