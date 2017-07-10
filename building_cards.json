@@ -22,7 +22,7 @@
 	"Beacon of Light": {
 		"health": "5",
 		"domains": ["Psionic"],
-		"effect": "At the end of your turn, Heal 1 damage to all friendly units adjacent to this Building."
+		"effect": "At the end of your turn, Heal 2 damage to all friendly units adjacent to this Building."
         },
 	"Fire Sorceress Tower": {
 		"health": "5",
