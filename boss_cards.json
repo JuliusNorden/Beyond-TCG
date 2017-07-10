@@ -2,7 +2,7 @@
 	"Colossal": {
 		"health": "20",
                 "domains": ["Physical"],
-		"effect": "At the end of each turn, Heal this unit for 1.",
+		"effect": "At the end of each turn, Heal this unit for 2.",
                 "power": "2",
                 "range": "1",
                 "speed": "2",
@@ -24,7 +24,7 @@
 	"High-Elf Shaman": {
 		"health": "20",
                 "domains": ["Psionic"],
-		"effect": "Take 1 Damage; deal 1x Damage.",
+		"effect": "Take 2 Damage; deal 1x Damage.",
                 "power": "2",
                 "range": "2",
                 "speed": "2",
@@ -102,9 +102,9 @@
 		"domains": ["Physical", "Psionic", "Elemental"],
 		"health": "20",
 		"power": "0",
-		"range": "1",
-		"speed": "1",
-		"effect": "Pay 2 Gold and 2 Mana: Summon a Unit.",
+		"range": "0",
+		"speed": "0",
+		"effect": "Pay 3 Gold and 3 Mana: Summon a Unit.",
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
