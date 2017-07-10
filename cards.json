@@ -16,16 +16,11 @@
 	},
 	"Blast": {
 		"domains": ["Psionic", "Elemental", "Physical"],
-		"damage": "+1"
+		"damage": "+2"
 	},
-	"Splash": {
+	"Longsword": {
 		"domains": ["Psionic", "Elemental", "Physical"],
-		"effect": "Splash",
-		"damage": "x1"
-	},
-	"Split": {
-		"domains": ["Psionic", "Elemental", "Physical"],
-		"effect": "Split",
+		"type": "Weapon",
 		"damage": "x1"
 	},
 	"Construction": {
@@ -34,14 +29,15 @@
 		"cost": "4 Resources",
 		"range": "territorial"
 	},
-	"Power-up": {
+	"Ring of Power": {
 		"domains": ["Psionic", "Elemental", "Physical"],
-		"effect": "Gain +1 Power.",
+		"type": "Ring",
+		"effect": "+2 Power",
 		"range": "self"
 	},
 	"Spell-Amp": {
 		"domains": ["Elemental"],
-		"effect": "Gain +1 Power.",
+		"effect": "Gain +2 Power.",
 		"range": "self"
 	},
 	"Arcane Blast": {
@@ -60,7 +56,7 @@
 		"range": "self"
 	},
 	"Quick Draw": {
-		"domains": ["Psionic"],
+		"domains": ["Physical", "Elemental", "Psionic"],
 		"effect": "Draw 2 Cards. Skip your next Turn.",
 		"range": "self"
 	},
@@ -74,10 +70,10 @@
 		"effect": "Heal",
 		"damage": "x2"
 	},
-	"Disrupt Magic": {
+	"Plot Twist": {
 		"domains": ["Elemental", "Psionic"],
-		"effect": "Destroy a Ritual.",
-		"range": "global"
+		"effect": "Cancel a Quest.",
+		"range": "self"
 	},
 	"Copycat": {
 		"domains": ["Psionic"],
@@ -87,7 +83,7 @@
 	"Advantage": {
 		"domains": ["Psionic"],
 		"effect": "Draw 1 Card. Instantly Play it without paying its Cost. If you cannot Play the Card, Discard it.",
-		"cost": "1 Mana",
+		"cost": "1 Resource",
 		"range": "self"
 	},
 	"Toll Fee": {
@@ -99,27 +95,28 @@
 	"Recycle": {
 		"domains": ["Psionic"],
 		"effect": "Add 1 Card from your Discard pile to your Hand.",
-		"cost": "1 Gold",
+		"cost": "1 Resource",
 		"range": "self"
 	},
 	"Fireball": {
 		"domains": ["Elemental"],
-		"damage": "+2",
+		"damage": "+4",
 		"cost": "1 Mana"
 	},
 	"Missile": {
 		"domains": ["Physical"],
-		"damage": "2x",
-		"cost": "2 Gold"
+		"damage": "x2",
+		"cost": "1 Gold"
 	},
-	"Gunshot": {
+	"Gun": {
 		"domains": ["Physical"],
-		"effect": "Put this Card on top of your Deck.",
-		"damage": "1x"
+		"type": "Weapon",
+		"effect": "3 Charges.",
+		"damage": "+2"
 	},
 	"Abolish": {
 		"domains": ["Psionic"],
-		"effect": "Discard 1 Card. Then Draw 1 Card.",
+		"effect": "Discard 1 Card. Then Draw 2 Cards.",
 		"range": "self"
 	},
 	"Arcane Trickery": {
@@ -134,10 +131,9 @@
 	},
 	"Finders Keepers": {
 		"domains": ["Psionic"],
-		"type": "Ritual",
-		"effect": "Whenever you Discard a Card: add a Card from your Discard pile to your Hand.",
-		"demand": "Discard 3 Cards",
-		"reward": "Banish this Card",
+		"type": "Quest",
+		"objective": "Discard 3 Cards.",
+		"reward": "Add 3 Cards from your Discard pile to your Hand.",
 		"range": "self"
 	},
 	"Arcane Storm": {
@@ -148,24 +144,23 @@
 	},
 	"Arcane Missile": {
 		"domains": ["Elemental"],
-		"damage": "x2 +3",
+		"damage": "x2 +4",
 		"cost": "3 Mana"
 	},
 	"Rapid Fire": {
 		"domains": ["Physical"],
-		"type": "Ritual",
-		"effect": "When you use a Card that deals Damage, you may use another Card that deals Damage. You may only use this effect once per Turn.",
-		"demand": "Deal 10 Damage.",
-		"reward": "Shuffle all Damaging Cards from your Discard pile into your Deck."
+		"type": "Trinket",
+		"effect": "When you use a Card that deals Damage, you may use another Card that deals Damage. You may only use this effect once per Turn."
 	},
 	"Rattle Bones": {
 		"domains": ["Psionic"],
-		"effect": "Deal 1 Damage extra for every 3 Cards in your Discard pile.",
+		"effect": "Deal 2 Damage extra for every 3 Cards in your Discard pile.",
 		"damage": "x1 +?",
 		"cost": "2 Mana"
 	},
-	"Energy Conversion": {
+	"Energy Convertor": {
 		"domains": ["Elemental"],
+		"type": "Trinket",
 		"effect": "Pay any amount of Power, gain 3x as much Mana.",
 		"range": "self"
 	},
@@ -186,20 +181,14 @@
 	},
 	"Bragging": {
 		"domains": ["Psionic"],
-		"type": "Ritual",
-		"demand": "Your Opponent(s) Discard 2 Cards.",
+		"type": "Quest",
+		"objective": "Your Opponent(s) Discards 2 Cards.",
 		"reward": "Draw 2 Cards"
 	},
-	"Magic Circle": {
-		"domains": ["Elemental"],
-		"type": "Ritual",
-		"effect": "+1 Power to all friendly units.",
-		"demand": "A friendly unit takes Damage."
-	},
-	"Witch's Incantation": {
-		"domains": ["Elemental"],
-		"type": "Ritual",
-		"demand": "Use 5 Mana.",
+	"Recruit": {
+		"domains": ["Physical"],
+		"type": "Quest",
+		"objective": "Use 5 Gold.",
 		"reward": "Summon a Unit. Place it on this Ritual."
 	},
 	"Deal with the Devil": {
@@ -209,12 +198,12 @@
 	},
 	"Crystal Artifact": {
 		"domains": ["Elemental"],
-		"type": "Ritual",
-		"effect": "Whenever you Play a Card gain +1 Mana.",
-		"demand": "Play 5 Cards."
+		"type": "Quest",
+		"objective": "Play 5 Cards.",
+		"reward": "Gain 5 Mana."
 	},
 	"Deny": {
-		"domains": ["Elemental"],
+		"domains": ["Elemental", "Psionic"],
 		"effect": "Next time the targeted unit Plays a card that uses Mana, cancel that effect."
 	},
 	"Lightning Strike": {
@@ -231,20 +220,22 @@
 	},
 	"Enhanced Laser Rifle": {
 		"domains": ["Physical"],
-		"damage": "x3",
+		"type": "Weapon",
+		"effect": "3 Charges.",
+		"damage": "x2",
 		"cost": "7 Gold",
 		"range": "global"
 	},
 	"Mind Control": {
 		"domains": ["Psionic"],
 		"effect": "Target enemy unit acts as your unit this turn.",
-		"cost": "1 Gold",
+		"cost": "1 Resource",
 		"range": "adjacent"
 	},
 	"Death Toll": {
 		"domains": ["Psionic"],
 		"effect": "Use a Card from your Discard pile without paying for its Cost.",
-		"cost": "4 Gold",
+		"cost": "4 Resources",
 		"range": "self"
 	},
 	"Rite of Midas": {
@@ -252,11 +243,11 @@
 		"effect": "Banish a Card from your Hand. Gain Gold equals to that Card’s Resource cost.",
 		"range": "self"
 	},
-	"Second Rite": {
+	"Side Quest": {
 		"domains": ["Elemental"],
-		"effect": "Copy a Ritual. Place it at the using Units feet.",
+		"effect": "Copy a Quest.",
 		"cost": "1 Mana",
-		"range": "global"
+		"range": "self"
 	},
 	"Electromagnetic Pulse": {
 		"domains": ["Elemental"],
@@ -277,7 +268,7 @@
 	},
 	"Weaken": {
 		"domains": ["Psionic"],
-		"effect": "Reduce the target Unit's Power by 1.",
+		"effect": "Reduce the target Unit's Power by 2.",
 		"cost": "2 Resources",
 		"range": "global"
 	},
@@ -295,7 +286,7 @@
 	"Dash": {
 		"domains": ["Psionic", "Physical", "Elemental"],
 		"effect": "Double the targeted Unit's Speed this turn.",
-		"range": "self"
+		"range": "unit"
 	},
 	"Reality Rift": {
 		"domains": ["Psionic"],
@@ -309,39 +300,34 @@
 	"Explosion": {
 		"domains": ["Physical"],
 		"effect": "Knockback. Splash.",
-		"cost": "2 Gold",
-		"damage": "+2"
+		"cost": "4 Gold",
+		"damage": "+4"
 	},
 	"Laser": {
 		"domains": ["Physical"],
-		"effect": "Deals Damage to all Units and Buildings in a line between the targeted Unit or Building and the casting Unit.",
+		"type": "Weapon",
+		"effect": "3 Charges. Deals Damage to all Units and Buildings in a line between the targeted Unit or Building and the casting Unit.",
 		"cost": "1 Gold",
-		"damage": "+1"
+		"damage": "+2"
 	},
 	"Forced Retreat": {
         	"domains": ["Physical"],
-       	 	"cost": "1 Resource",
+       	 	"cost": "1 Gold",
         	"effect": "Knockback 4.",
         	"damage": "x1",
         	"range": "Adjacent"
     	},
     	"Gatling Gun": {
         	"domains": ["Physical"],
+		"type": "Weapon",
+		"effect": "3 Charges.",
         	"cost": "4 Gold",
         	"damage": "x3",
         	"range": "Adjacent"
     	},
-    	"Time Bomb": {
-       		 "domains": ["Elemental"],
-       		 "cost": "3 Mana",
-       		 "effect": "When this ritual is destroyed or activated, Splash 2 around self.",
-       		 "demand": "Start your turn.",
-       		 "damage": "x2",
-       		 "range": "Territorial"
-   	 },
    	 "Breed": {
        		 "domains": ["Physical"],
-        	"cost": "4 Resources",
+        	"cost": "4 Gold",
        		 "effect": "If there is a friendly Unit adjacent to the casting Unit and they are within friendly Territory, Summon a Unit. \nThe other unit cannot Play or have Played a Card this turn.",
        		 "range": "Self"
    	 },
@@ -350,5 +336,32 @@
        		 "cost": "2 Resources",
        		 "effect": "Splash 2. You can place any affected Unit anywhere else within the target radius.",
        		 "damage": "x1"
+    	},
+   	 "Gathering Mind": {
+       		 "domains": ["Psionic"],
+       		 "effect": "Add an Elemental Spell Card from your deck to your hand.",
+       		 "range": "self"
+    	},
+   	 "Portal": {
+       		 "domains": ["Elemental", "Psionic"],
+       		 "effect": "Put a Mark on the casting Unit’s feet, and on the targeted Tile. If a Unit steps onto a Mark, they are put on the other Mark.",
+       		 "range": "global"
+    	},
+   	 "Reload": {
+       		 "domains": ["Physical"],
+       		 "effect": "Fully charge a Physical weapon.",
+       		 "range": "self"
+    	},
+   	 "Holster": {
+       		 "domains": ["Physical"],
+		 "type": "Trinket",
+       		 "effect": "This Units Physical weapons have +1 maximum Charge.",
+       		 "range": "self"
+    	},
+   	 "Scope": {
+       		 "domains": ["Physical"],
+		 "type": "Trinket",
+       		 "effect": "+1 Range",
+       		 "range": "self"
     	}
 }
