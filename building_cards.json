@@ -42,5 +42,12 @@
 		"effect": "Spells cost 1 less Resource to cast.",
 		"upgradesFrom": "Fountain",
 		"zone": "Friendly Territory"
+        },
+	"Bank": {
+		"health": "5",
+		"domains": ["Physical"],
+		"effect": "At the start of your turn, gain 2 Gold.",
+		"upgradesFrom": "Market",
+		"zone": "Friendly Territory"
         }
 }
