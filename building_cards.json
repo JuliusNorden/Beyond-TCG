@@ -20,7 +20,7 @@
 	"Archer Tower": {
 		"health": "5",
 		"domains": ["Physical"],
-		"effect": "At the end of your turn, deal 1 Damage to an Enemy Unit adjacent to this Building.",
+		"effect": "At the end of your turn, deal 2 Damage to an Enemy Unit adjacent to this Building.",
 		"zone": "Friendly Territory"
         },
 	"Beacon of Light": {
@@ -32,8 +32,8 @@
 	"Fire Sorceress Tower": {
 		"health": "5",
 		"domains": ["Elemental"],
-		"effect": "At the end of your turn, deal 2 damage to an Enemy Unit in a 2 Tile Radius of this Building.",
-		"upgradesFrom": "Fountain",
+		"effect": "At the end of your turn, deal 3 damage to an Enemy Unit in a 2 Tile Radius of this Building.",
+		"upgradesFrom": "Archer Tower",
 		"zone": "Friendly Territory"
         },
 	"Arcane Library": {
