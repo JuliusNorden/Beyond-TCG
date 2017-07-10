@@ -249,7 +249,7 @@
 	},
 	"Rite of Midas": {
 		"domains": ["Physical"],
-		"effect": "Banish a Card. Gain Gold equals to that Card’s Resource cost.",
+		"effect": "Banish a Card from your Hand. Gain Gold equals to that Card’s Resource cost.",
 		"range": "self"
 	},
 	"Second Rite": {
@@ -294,7 +294,7 @@
 	},
 	"Dash": {
 		"domains": ["Psionic", "Physical", "Elemental"],
-		"effect": "Double this Unit's Speed this turn.",
+		"effect": "Double the targeted Unit's Speed this turn.",
 		"range": "self"
 	},
 	"Reality Rift": {
