@@ -1,8 +1,14 @@
 {
-        "Arcane Tower": {
+        "Fountain": {
                 "health": "3",
 		"domains": ["Elemental"],
-		"effect": "At the start of your turn gain 1 Mana for each friendly Unit in a 2 Tile AoE.",
+		"effect": "At the start of your turn gain 1 Mana for every 2 friendly Units in a 2 Tile AoE.",
+		"zone": "Friendly Territory"
+	},
+	"Market": {
+                "health": "3",
+		"domains": ["Physical"],
+		"effect": "At the start of your turn gain 1 Gold for every 2 friendly Units in a 2 Tile AoE.",
 		"zone": "Friendly Territory"
 	},
 	"Territorial Flag": {
@@ -22,5 +28,19 @@
 		"domains": ["Psionic"],
 		"effect": "At the end of your turn, Heal 1 damage to all friendly units adjacent to this Building.",
 		"zone": "Any Territory"
+        },
+	"Fire Sorceress Tower": {
+		"health": "5",
+		"domains": ["Elemental"],
+		"effect": "At the end of your turn, deal 2 damage to an Enemy Unit in a 2 Tile Radius of this Building.",
+		"constructFrom": "Fountain",
+		"zone": "Friendly Territory"
+        },
+	"Arcane Library": {
+		"health": "3",
+		"domains": ["Elemental"],
+		"effect": "Spells cost 1 less Resource to cast.",
+		"constructFrom": "Fountain",
+		"zone": "Friendly Territory"
         }
 }
