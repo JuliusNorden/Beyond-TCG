@@ -31,7 +31,7 @@
 	},
 	"Ring of Power": {
 		"domains": ["Psionic", "Elemental", "Physical"],
-		"type": "Ring",
+		"type": "Trinket",
 		"effect": "+2 Power",
 		"range": "self"
 	},
