@@ -446,14 +446,6 @@
 		"effect": "Remove the Targeted Unit’s Weapon or Trinket and Equip it to the Casting Unit."
 	},
 	"Rebounding Shot": {
-		"cost": "cost",
-		"domains": ["Psionic", "Elemental", "Physical"],
-		"type": "type",
-		"range": "range",
-		"effect": "effect",
-		"damage": "damage"
-	},
-	"Name": {
 		"cost": "2 Gold",
 		"domains": ["Physical"],
 		"type": "Spell",
