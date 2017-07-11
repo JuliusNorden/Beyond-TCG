@@ -24,7 +24,7 @@
 	"High-Elf Shaman": {
 		"health": "20",
                 "domains": ["Psionic"],
-		"effect": "Take 2 Damage; deal 1x Damage.",
+		"effect": "Action: Take 2 Damage; deal 1x Damage.",
                 "power": "2",
                 "range": "2",
                 "speed": "2",
@@ -71,7 +71,7 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"effect": "Pay 1 Gold. Add a Card that has a gold cost greater than 2 Gold from your Deck to your Hand.",
+		"effect": "Action: Pay 1 Gold. Add a Card that has a gold cost greater than 2 Gold from your Deck to your Hand.",
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
@@ -93,7 +93,7 @@
 		"power": "2",
 		"range": "1",
 		"speed": "2",
-		"effect": "Pay 2 Resources; add 1 Card from your Discard pile to your Hand.",
+		"effect": "Action: Pay 2 Resources; add 1 Card from your Discard pile to your Hand.",
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
@@ -104,7 +104,7 @@
 		"power": "0",
 		"range": "0",
 		"speed": "0",
-		"effect": "Pay 3 Gold and 3 Mana: Summon a Unit.",
+		"effect": "Action: Pay 3 Gold and 3 Mana: Summon a Unit.",
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
@@ -150,5 +150,37 @@
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
+	},
+        "Sage of the Forest": {
+		"domains": ["Elemental"],
+		"health": "20",
+		"power": "2",
+		"range": "2",
+		"speed": "2",
+		"weaponSlots": "1",
+		"trinketSlots": "0",
+		"spellSlots": "2"
+	},
+        "Ancient Wizard": {
+		"domains": ["Elemental"],
+		"health": "20",
+		"power": "3",
+		"range": "2",
+		"speed": "2",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1",
+		"effect": "Action: Gain 1 Mana."
+	},
+        "Succubus": {
+		"domains": ["Elemental"],
+		"health": "20",
+		"power": "4",
+		"range": "2",
+		"speed": "1",
+		"weaponSlots": "1",
+		"trinketSlots": "1",
+		"spellSlots": "1",
+		"effect": "Units Damaged by this Unit cannot move further than 3 Tiles away from this Unit during their next turn."
 	}
 }
