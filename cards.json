@@ -428,7 +428,7 @@
 		"effect": "Affected Units have 0 Speed the next Turn."
 	},
 	"Prominence of Power": {
-		"domains": ["Psionic", "Elemental",
+		"domains": ["Psionic", "Elemental"],
 		"type": "Spell",
 		"range": "self",
 		"effect": "Chose a Spell from your Hand. Reveal that card and a Spell with the same name from your Deck and from your Discard Pile. Banish them all and use a copy of the chosen Spell without paying its Resource Cost."
