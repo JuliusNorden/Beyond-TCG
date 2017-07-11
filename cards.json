@@ -1,12 +1,4 @@
 {
-	"Name": {
-		"cost": "cost",
-		"domains": ["domains"],
-		"type": "type",
-		"range": "range",
-		"effect": "effect",
-		"damage": "damage"
-	},
 	"Draw": {
 		"domains": ["Psionic", "Elemental", "Physical"],
 		"effect": "Draw 1 Card.",
