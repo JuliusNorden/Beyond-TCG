@@ -1,4 +1,12 @@
 {
+	"Name": {
+		"cost": "cost",
+		"domains": ["domains"],
+		"type": "type",
+		"range": "range",
+		"effect": "effect",
+		"damage": "damage"
+	},
 	"Draw": {
 		"domains": ["Psionic", "Elemental", "Physical"],
 		"effect": "Draw 1 Card.",
@@ -372,5 +380,112 @@
    	 "Repair": {
        		 "domains": ["Physical", "Elemental", "Psionic"],
        		 "effect": "Fully heal a Building."
-    	}
+    	},
+   	 "Staff of Ice": {
+       		 "domains": ["Elemental"],
+		 "type": "Weapon",
+       		 "effect": "Any Unit attacked by this Weapon has 1 less Speed next turn.",
+		 "cost": "2 Mana",
+		 "damage": "x1"
+    	},
+   	 "Staff of Wonders": {
+       		 "domains": ["Elemental"],
+		 "type": "Weapon",
+		 "cost": "5 Mana",
+		 "damage": "x2 +1"
+    	},
+   	"Fangs of Nosferatu": {
+		"domains": ["Physical"],
+		"type": "Trinket",
+		"range": "self",
+		"effect": "Whenever this Unit deals damage, Heal.",
+		"damage": "x1"
+	},
+	"Fluttering Scarf": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"type": "Trinket",
+		"range": "self",
+		"effect": "This Unit gains 1 Speed."
+	},
+	"Assassination": {
+		"domains": ["Physical"],
+		"type": "Quest",
+		"range": "self",
+		"objective": "Kill a Unit.",
+		"reward": "Double your Gold."
+	},
+	"Exploration": {
+		"domains": ["Elemental"],
+		"type": "Quest",
+		"range": "self",
+		"effect": "Place a marker 10 Tiles from the Casting Unit.",
+		"objective": "Reach the Marker with the Casting Unit.",
+		"reward": "Summon a Unit"
+	},
+	"Cold Feet": {
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"effect": "Affected Units have 0 Speed the next Turn."
+	},
+	"Prominence of Power": {
+		"domains": ["Psionic", "Elemental",
+		"type": "Spell",
+		"range": "self",
+		"effect": "Chose a Spell from your Hand. Reveal that card and a Spell with the same name from your Deck and from your Discard Pile. Banish them all and use a copy of the chosen Spell without paying its Resource Cost."
+	},
+	"Disarm": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"type": "Spell",
+		"range": "Adjacent",
+		"effect": "Remove targeted Unit's Weapon."
+	},
+	"Snatch": {
+		"domains": ["Elemental", "Physical"],
+		"type": "Spell",
+		"range": "Adjacent",
+		"effect": "Remove the Targeted Unit’s Weapon or Trinket and Equip it to the Casting Unit."
+	},
+	"Rebounding Shot": {
+		"cost": "cost",
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"type": "type",
+		"range": "range",
+		"effect": "effect",
+		"damage": "damage"
+	},
+	"Name": {
+		"cost": "2 Gold",
+		"domains": ["Physical"],
+		"type": "Spell",
+		"effect": "After dealing Damage, you may target another Unit Adjacent to the targeted Unit and use this Spell on it without paying for its Cost. This Spell may only target the same Unit once per turn.",
+		"damage": "x1"
+	},
+	"Accessination": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"type": "Spell",
+		"effect": "Remove the Targeted Unit's Trinket."
+	},
+	"High Energy Shield": {
+		"cost": "2 Resources",
+		"domains": ["Elemental", "Physical"],
+		"type": "Counter",
+		"effect": "Negate all Damage from a Spell."
+	},
+	"Reflect": {
+		"domains": ["Psionic", "Elemental"],
+		"type": "Counter",
+		"range": "self",
+		"effect": "Reflect a Spell that targets the Casting Unit back to the Caster. The Casting Unit is still affected by the Spell."
+	},
+	"Counter Counter": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"type": "Counter",
+		"effect": "Negate a Counter Spell."
+	},
+	"Adrenaline Rush": {
+		"domains": ["Psionic", "Elemental", "Physical"],
+		"type": "Counter",
+		"range": "self",
+		"effect": "When a Friendly Unit is targeted by a Spell you can Cast this Counter from the targeted Unit. That unit can instantly move up to as many Tiles as it has Speed."
+	}
 }
