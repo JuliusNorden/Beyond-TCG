@@ -41,5 +41,15 @@
 		"domains": ["Physical"],
 		"effect": "At the start of your turn, gain 2 Gold.",
 		"upgradesFrom": "Market"
+        },
+	"Energy Tower": {
+		"health": "3",
+		"domains": ["Elemental"],
+		"effect": "Units adjacent to this Building have +1 Power."
+        },
+	"Null-Field Generator": {
+		"health": "5",
+		"domains": ["Psionic"],
+		"effect": "Anything within a 1 Tile AoE of this Building cannot affect anything else outside of this area with Elemental Domain Spells, and vice versa."
         }
 }
