@@ -82,7 +82,7 @@
 		"power": "0",
 		"range": "3",
 		"speed": "2",
-		"effect": "When you spend 2 or more Mana; Gain 1 Power.",
+		"effect": "When you spend 3 or more Mana; Gain 1 Power.",
 		"weaponSlots": "1",
 		"trinketSlots": "1",
 		"spellSlots": "1"
@@ -110,7 +110,7 @@
 		"spellSlots": "1"
 	},
         "Tortola, Crystalline Tortoise": {
-		"domains": ["Physical"],
+		"domains": ["Elemental"],
 		"health": "20",
 		"power": "6",
 		"range": "1",
