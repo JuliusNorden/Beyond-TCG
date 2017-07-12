@@ -1,55 +1,57 @@
 {
         "Fountain": {
                 "health": "3",
-		"domains": ["Elemental"],
 		"effect": "At the start of your turn gain 1 Mana for every 2 friendly Units in a 1 Tile AoE."
 	},
 	"Market": {
                 "health": "3",
-		"domains": ["Physical"],
 		"effect": "At the start of your turn gain 1 Gold for every 2 friendly Units in a 1 Tile AoE."
 	},
 	"Territorial Flag": {
 		"health": "1",
-		"domains": ["Physical", "Psionic", "Elemental"],
 		"effect": "You control the Tiles adjacent to this Building."
 	},
 	"Archer Tower": {
 		"health": "5",
-		"domains": ["Physical"],
 		"effect": "At the end of your turn, deal 2 Damage to an Enemy Unit adjacent to this Building."
         },
 	"Beacon of Light": {
 		"health": "5",
-		"domains": ["Psionic"],
 		"effect": "At the end of your turn, Heal 2 damage to all friendly units adjacent to this Building."
         },
 	"Fire Sorceress Tower": {
 		"health": "5",
-		"domains": ["Elemental"],
 		"effect": "At the end of your turn, deal 3 damage to an Enemy Unit in a 2 Tile Radius of this Building.",
 		"upgradesFrom": "Archer Tower"
         },
 	"Arcane Library": {
 		"health": "3",
-		"domains": ["Elemental"],
 		"effect": "Spells cost 1 less Resource to cast.",
 		"upgradesFrom": "Fountain"
         },
 	"Bank": {
 		"health": "5",
-		"domains": ["Physical"],
 		"effect": "At the start of your turn, gain 2 Gold.",
 		"upgradesFrom": "Market"
         },
 	"Energy Tower": {
 		"health": "3",
-		"domains": ["Elemental"],
 		"effect": "Units adjacent to this Building have +1 Power."
         },
 	"Null-Field Generator": {
 		"health": "5",
-		"domains": ["Psionic"],
 		"effect": "Anything within a 1 Tile AoE of this Building cannot affect anything else outside of this area with Elemental Domain Spells, and vice versa."
+        },
+	"Hut": {
+		"health": "3",
+		"effect": "This Building always counts as a Unit."
+        },
+	"Village": {
+		"health": "5",
+		"effect": "This Building always counts as 2 Units."
+        },
+	"Barracks": {
+		"health": "3",
+		"effect": "At the start of your Turn, summon one Minion in a 1 Tile AoE of this Building."
         }
 }
