@@ -48,20 +48,33 @@
 		"effect": "This Building always counts as 2 Units.",
 		"upgradesFrom": "Hut"
         },
-	"Barracks": {
+	"Recruitment Center": {
 		"health": "3",
 		"effect": "At the start of your Turn, summon one Minion adjacent to this Building."
         },
 	"Armory": {
 		"health": "3",
-		"effect": "Your Minions have +1 Health."
+		"effect": "Your Minions have +1 Health.",
+		"upgradesFrom": "Recruitment Center"
         },
 	"Smith": {
 		"health": "3",
-		"effect": "Your Minions have +1 Power."
+		"effect": "Your Minions have +1 Power.",
+		"upgradesFrom": "Recruitment Center"
         },
 	"Fletcher": {
 		"health": "3",
-		"effect": "Your Minions have +1 Range."
+		"effect": "Your Minions have +1 Range.",
+		"upgradesFrom": "Recruitment Center"
+        },
+	"Barracks": {
+		"health": "5",
+		"effect": "At the start of your Turn, if you do not have a Minion, summon 3 Minions adjacent to this building. Otherwise summon one Minion.",
+		"upgradesFrom": "Recruitment Center"
+        },
+	"Castle": {
+		"health": "5",
+		"effect": "At the start of your Turn, summon one Minion in a 2 Tile AoE from this Building for every Unit you control.",
+		"upgradesFrom": "Barracks"
         }
 }
