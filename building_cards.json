@@ -5,7 +5,7 @@
 	},
 	"Territorial Flag": {
 		"health": "1",
-		"effect": "You control the Tiles adjacent to this Building."
+		"effect": "You can spawn new Units next to this Building."
 	},
 	"Archer Tower": {
 		"health": "5",
