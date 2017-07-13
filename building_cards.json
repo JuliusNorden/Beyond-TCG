@@ -50,5 +50,17 @@
 	"Barracks": {
 		"health": "3",
 		"effect": "At the start of your Turn, summon one Minion in a 1 Tile AoE of this Building."
+        },
+	"Armory": {
+		"health": "3",
+		"effect": "Your Minions have +1 Health."
+        },
+	"Smith": {
+		"health": "3",
+		"effect": "Your Minions have +1 Power."
+        },
+	"Fletcher": {
+		"health": "3",
+		"effect": "Your Minions have +1 Range."
         }
 }
