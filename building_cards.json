@@ -5,38 +5,39 @@
 	},
 	"Territorial Flag": {
 		"health": "1",
-		"effect": "You can spawn new Units next to this Building."
+		"effect": "You can spawn newly recruited Units and Minions next to this Building."
 	},
 	"Archer Tower": {
 		"health": "5",
-		"effect": "At the end of your turn, deal 2 Damage to an Enemy Unit adjacent to this Building."
+		"effect": "At the end of your turn, deal 2 Damage to an Enemy Unit or Minion adjacent to this Building."
         },
 	"Beacon of Light": {
 		"health": "5",
-		"effect": "At the end of your turn, Heal 2 damage to all friendly units adjacent to this Building."
+		"effect": "At the end of your turn, Heal 2 damage to all friendly Units or Minions adjacent to this Building."
         },
 	"Fire Sorceress Tower": {
 		"health": "5",
-		"effect": "At the end of your turn, deal 3 damage to an Enemy Unit in a 2 Tile Radius of this Building.",
+		"effect": "At the end of your turn, deal 3 damage to an Enemy Unit or Minion in a 2 Tile Radius of this Building.",
 		"upgradesFrom": "Archer Tower"
         },
 	"Arcane Library": {
 		"health": "3",
-		"effect": "Spells cost 1 less Resource to cast.",
+		"effect": "Spells cost 1 less Mana to cast.",
 		"upgradesFrom": "Bank"
         },
 	"Bank": {
 		"health": "5",
-		"effect": "At the start of your turn, gain 2 Mana.",
+		"effect": "At the start of your Turn, gain 2 Mana.",
 		"upgradesFrom": "Fountain"
         },
 	"Energy Tower": {
 		"health": "3",
-		"effect": "Units adjacent to this Building have +1 Power."
+		"effect": "Units or Minions adjacent to this Building have +1 Power."
         },
 	"Null-Field Generator": {
 		"health": "5",
-		"effect": "Anything within a 1 Tile AoE of this Building cannot affect anything else outside of this area with Elemental Domain Spells, and vice versa."
+		"effect": "Any Unit within a 1 Tile AoE of this Building cannot affect anything else outside of this area with Elemental Domain Spells, and vice versa.",
+		"upgradesFrom": "Arcane Library"
         },
 	"Hut": {
 		"health": "3",
@@ -49,7 +50,7 @@
         },
 	"Barracks": {
 		"health": "3",
-		"effect": "At the start of your Turn, summon one Minion in a 1 Tile AoE of this Building."
+		"effect": "At the start of your Turn, summon one Minion adjacent to this Building."
         },
 	"Armory": {
 		"health": "3",
