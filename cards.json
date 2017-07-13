@@ -78,7 +78,7 @@
 	},
 	"Toll Fee": {
 		"domains": ["Physical"],
-		"effect": "Add 1 Weapon from your Deck to your Hand.",
+		"effect": "Add 1 Gear from your Deck to your Hand.",
 		"range": "self"
 	},
 	"Recycle": {
