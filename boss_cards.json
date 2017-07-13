@@ -6,19 +6,17 @@
                 "power": "2",
                 "range": "1",
                 "speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "2",
 		"spellSlots": "1"
 	},
 	"Leprechaun": {
 		"health": "20",
                 "domains": ["Physical"],
-		"effect": "Whenever you gain Gold from a Card other than by this effect; you gain 1 additional Gold.",
+		"effect": "Whenever you gain Charges from a Card other than by this effect; you gain 1 additional Charge.",
                 "power": "2",
                 "range": "2",
                 "speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "2",
 		"spellSlots": "1"
 	},
 	"High-Elf Shaman": {
@@ -28,19 +26,17 @@
                 "power": "2",
                 "range": "2",
                 "speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1"
 	},
 	"Trophy Beast": {
 		"health": "20",
                 "domains": ["Elemental", "Psionic"],
-		"effect": "When this Unit dies; Your opponent gains 5 Gold.",
+		"effect": "When this Unit dies; Your opponent gains 10 Mana.",
                 "power": "2",
                 "range": "2",
                 "speed": "3",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1"
 	},
 	"G'ok the Moving Earth": {
@@ -50,8 +46,7 @@
                 "power": "4",
                 "range": "1",
                 "speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "2",
 		"spellSlots": "1"
 	},
 	"Magic Presence": {
@@ -61,8 +56,7 @@
 		"range": "2",
 		"speed": "2",
 		"effect": "Friendly units adjacent to this unit have +2 Power.",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1"
 	},
 	"Bandit Chieftain": {
@@ -71,9 +65,8 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"effect": "Action: Pay 1 Gold. Add a Card that has a gold cost greater than 2 Gold from your Deck to your Hand.",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"effect": "Action: Pay 1 Mana. Add a Card that has a Mana cost greater than 2 Mana from your Deck to your Hand.",
+		"gearSlots": "2",
 		"spellSlots": "1"
 	},
 	"Arch-mage": {
@@ -83,8 +76,7 @@
 		"range": "3",
 		"speed": "2",
 		"effect": "When you spend 3 or more Mana; Gain 1 Power.",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1"
 	},
 	"The Ferryman": {
@@ -93,9 +85,8 @@
 		"power": "2",
 		"range": "1",
 		"speed": "2",
-		"effect": "Action: Pay 2 Resources; add 1 Card from your Discard pile to your Hand.",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"effect": "Action: Pay 2 Mana; add 1 Card from your Discard pile to your Hand.",
+		"gearSlots": "1",
 		"spellSlots": "1"
 	},
 	"King's Brood": {
@@ -104,9 +95,8 @@
 		"power": "0",
 		"range": "0",
 		"speed": "0",
-		"effect": "Action: Pay 3 Gold and 3 Mana: Summon a Unit.",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"effect": "At the start of your Turn, summon 2 Minions.",
+		"gearSlots": "0",
 		"spellSlots": "1"
 	},
         "Tortola, Crystalline Tortoise": {
@@ -116,8 +106,7 @@
 		"range": "1",
 		"speed": "1",
 		"effect": "Ignores range bonuses on Cards.",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1"
 	},
         "White Steed": {
@@ -126,8 +115,7 @@
 		"power": "0",
 		"range": "0",
 		"speed": "5",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1"
 	},
         "Clockwork, the Great Machine": {
@@ -137,8 +125,7 @@
 		"range": "2",
 		"speed": "2",
 		"effect": "You can construct 1 extra Basic building each turn. Has double range when placing Buildings.",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "2",
 		"spellSlots": "1"
 	},
         "Kharen, the Bounty Hunter": {
@@ -147,8 +134,7 @@
 		"power": "2",
 		"range": "4",
 		"speed": "1",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "2",
 		"spellSlots": "1"
 	},
         "Sage of the Forest": {
@@ -157,8 +143,7 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "0",
+		"gearSlots": "0",
 		"spellSlots": "2"
 	},
         "Ancient Wizard": {
@@ -167,8 +152,7 @@
 		"power": "3",
 		"range": "2",
 		"speed": "2",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1",
 		"effect": "Action: Gain 1 Mana."
 	},
@@ -178,8 +162,7 @@
 		"power": "4",
 		"range": "2",
 		"speed": "1",
-		"weaponSlots": "1",
-		"trinketSlots": "1",
+		"gearSlots": "1",
 		"spellSlots": "1",
 		"effect": "Units Damaged by this Unit cannot move further than 3 Tiles away from this Unit during their next turn."
 	}
