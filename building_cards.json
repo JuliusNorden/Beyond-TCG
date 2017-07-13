@@ -3,10 +3,6 @@
                 "health": "3",
 		"effect": "At the start of your turn gain 1 Mana for every 2 friendly Units in a 1 Tile AoE."
 	},
-	"Market": {
-                "health": "3",
-		"effect": "At the start of your turn gain 1 Gold for every 2 friendly Units in a 1 Tile AoE."
-	},
 	"Territorial Flag": {
 		"health": "1",
 		"effect": "You control the Tiles adjacent to this Building."
@@ -27,12 +23,12 @@
 	"Arcane Library": {
 		"health": "3",
 		"effect": "Spells cost 1 less Resource to cast.",
-		"upgradesFrom": "Fountain"
+		"upgradesFrom": "Bank"
         },
 	"Bank": {
 		"health": "5",
-		"effect": "At the start of your turn, gain 2 Gold.",
-		"upgradesFrom": "Market"
+		"effect": "At the start of your turn, gain 2 Mana.",
+		"upgradesFrom": "Fountain"
         },
 	"Energy Tower": {
 		"health": "3",
