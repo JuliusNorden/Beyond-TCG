@@ -14,7 +14,7 @@
 	},
 	"Blast": {
 		"domains": ["Elemental"],
-		"cost": "1 Mana"
+		"cost": "1 Mana",
 		"damage": "x1"
 	},
 	"Longsword": {
@@ -194,7 +194,7 @@
 		"domains": ["Physical"],
 		"type": "Gear",
 		"effect": "1 Charge.",
-		"damage": "x2",
+		"damage": "+2",
 		"range": "global"
 	},
 	"Mind Control": {
@@ -275,7 +275,7 @@
 	"Laser": {
 		"domains": ["Physical"],
 		"type": "Gear",
-		"effect": "3 Charges. Deals Damage to all Units and Buildings in a line between the targeted Unit or Building and the casting Unit.",
+		"effect": "3 Charges. Deals Damage to all Units, Minions and Buildings in a line between the target and the casting Unit.",
 		"damage": "+1"
 	},
 	"Forced Retreat": {
