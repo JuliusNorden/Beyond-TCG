@@ -44,7 +44,8 @@
         },
 	"Village": {
 		"health": "5",
-		"effect": "This Building always counts as 2 Units."
+		"effect": "This Building always counts as 2 Units.",
+		"upgradesFrom": "Hut"
         },
 	"Barracks": {
 		"health": "3",
