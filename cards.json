@@ -5,434 +5,512 @@
 		"type": "type",
 		"range": "range",
 		"effect": "effect",
-		"damage": "damage"
+		"damage": "damage",
+		"action": "action"
 	},
 	"Mana": {
 		"domains": ["Psionic", "Elemental"],
 		"effect": "Gain 2 Mana.",
-		"range": "self"
+		"range": "self",
+		"action": "Quick Action"
 	},
 	"Blast": {
 		"domains": ["Elemental"],
 		"cost": "1 Mana",
-		"damage": "x1"
+		"damage": "x1",
+		"action": "Action"
 	},
 	"Longsword": {
 		"domains": ["Physical"],
 		"type": "Gear",
 		"damage": "+2",
-		"range": "adjacent"
+		"range": "adjacent",
+		"action": "Bonus Action"
 	},
 	"Construction": {
 		"domains": ["Psionic", "Elemental", "Physical"],
 		"effect": "Construct a Building.",
 		"cost": "4 Mana",
-		"range": "territorial"
+		"range": "territorial",
+		"action": "Quick Action"
 	},
 	"Ring of Power": {
 		"domains": ["Elemental"],
 		"type": "Gear",
 		"effect": "+2 Power",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Spell-Amp": {
 		"domains": ["Elemental"],
 		"effect": "Permanently gain +2 Power.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Plan Ahead": {
 		"domains": ["Psionic"],
 		"effect": "Pick a Card from your Deck. Put that Card on top of your Deck.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Quick Draw": {
 		"domains": ["Physical", "Elemental", "Psionic"],
 		"effect": "Draw 2 Cards. Skip your next Turn.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Sniper": {
 		"domains": ["Elemental"],
 		"effect": "Use any Card in your Deck that deals Damage.",
-		"range": "self"
+		"range": "self",
+		"action": "Action"
 	},
 	"Restoration": {
 		"domains": ["Psionic"],
 		"effect": "Heal",
-		"damage": "x2"
+		"damage": "x2",
+		"action": "Bonus Action"
 	},
 	"Plot Twist": {
 		"domains": ["Elemental", "Psionic"],
 		"effect": "Cancel a Quest.",
-		"range": "self"
+		"range": "self",
+		"action": "Quick Action"
 	},
 	"Copycat": {
 		"domains": ["Psionic"],
-		"effect": "Use 1 copy of the Card most previously Played by a target Unit.",
-		"range": "global"
+		"effect": "Use a copy of the Card most previously Played by a Unit.",
+		"range": "global",
+		"action": "Reaction"
 	},
 	"Advantage": {
 		"domains": ["Psionic"],
 		"effect": "Draw 1 Card. Instantly Play it without paying its Cost. If you cannot Play the Card, or the Card doesn't have a Cost, Discard the card.",
 		"cost": "1 Mana",
-		"range": "self"
+		"range": "self",
+		"action": "Action"
 	},
 	"Toll Fee": {
 		"domains": ["Physical"],
 		"effect": "Add 1 Gear from your Deck to your Hand.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Recycle": {
 		"domains": ["Psionic"],
 		"effect": "Add 1 Card from your Discard pile to your Hand.",
 		"cost": "1 Mana",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Fireball": {
 		"domains": ["Elemental"],
 		"damage": "x2",
-		"cost": "4 Mana"
+		"cost": "4 Mana",
+		"action": "Action"
 	},
 	"Frost Bolt": {
 		"domains": ["Elemental"],
 		"effect": "Halve the targeted Entity's speed the next Turn.",
 		"damage": "x1",
-		"cost": "2 Mana"
+		"cost": "2 Mana",
+		"action": "Action"
 	},
 	"Gun": {
 		"domains": ["Physical"],
 		"type": "Gear",
 		"effect": "3 Charges.",
-		"damage": "+2"
+		"damage": "+2",
+		"action": "Bonus Action"
 	},
 	"Abolish": {
 		"domains": ["Psionic"],
 		"effect": "Discard 1 Card. Then Draw 2 Cards.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Arcane Trickery": {
 		"domains": ["Elemental"],
 		"effect": "Gain 3 Mana. You Draw 1 less Card at the end of your turn.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Finders Keepers": {
 		"domains": ["Psionic"],
 		"type": "Quest",
 		"objective": "Discard 3 Cards.",
 		"reward": "Add 3 Cards from your Discard pile to your Hand.",
-		"range": "self"
+		"range": "self",
+		"action": "Quick Action"
 	},
 	"Arcane Storm": {
 		"domains": ["Elemental"],
 		"effect": "Deals Damage twice.",
 		"damage": "x1",
-		"cost": "4 Mana"
+		"cost": "4 Mana",
+		"action": "Áction"
 	},
 	"Arcane Missile": {
 		"domains": ["Elemental"],
 		"damage": "x3",
-		"cost": "8 Mana"
+		"cost": "8 Mana",
+		"action": "Action"
 	},
 	"Rapid Fire": {
 		"domains": ["Physical"],
-		"effect": "If possible, attack with the casting Unit's Weapon."
+		"effect": "If possible, attack with the casting Unit's Weapon.",
+		"action": "Bonus Action"
 	},
 	"Rattle Bones": {
 		"domains": ["Psionic"],
 		"effect": "Deal 2 Damage extra for every 3 Cards in your Discard pile.",
 		"damage": "x1 +?",
-		"cost": "4 Mana"
+		"cost": "4 Mana",
+		"action": "Action"
 	},
 	"I'm Alive": {
 		"domains": ["Psionic"],
 		"effect": "Return all of your Banished Cards to your Discard pile.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Subvert": {
 		"domains": ["Psionic"],
 		"effect": "Banish all Cards in your Discard pile. Gain 1 Mana for every 2 Cards you Banish using this Card’s effect.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Death and Decay": {
 		"domains": ["Psionic"],
-		"effect": "Roll a 6-sided dice. Discard that many Cards from the top of your Deck and gain that much Mana.",
-		"range": "self"
+		"effect": "Roll a 6-sided dice. Banish that many Cards from the top of your Deck and gain that much Mana.",
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Bragging": {
 		"domains": ["Psionic"],
 		"type": "Quest",
 		"objective": "Your Opponent(s) Discards 2 Cards.",
-		"reward": "Draw 2 Cards"
+		"reward": "Draw 2 Cards",
+		"action": "Quick Action"
 	},
 	"Recruit": {
 		"domains": ["Elemental"],
 		"type": "Quest",
 		"objective": "Use 5 Mana.",
-		"reward": "All Buildings that summon a Minion instantly summons a Minion."
+		"reward": "All Buildings that summon a Minion instantly summons a Minion.",
+		"action": "Quick Action"
 	},
 	"Deal with the Devil": {
 		"domains": ["Psionic"],
 		"effect": "Discard your Hand. Summon two Units.",
-		"range": "self"
+		"range": "self",
+		"action": "Quick Action"
 	},
 	"Deny": {
 		"domains": ["Elemental", "Psionic"],
-		"effect": "Next time the targeted Unit Plays a card that uses Mana, cancel that effect."
+		"effect": "Next time the targeted Unit Plays a card that uses Mana, cancel that effect.",
+		"action": "Bonus Action"
 	},
 	"Lightning Strike": {
 		"domains": ["Elemental"],
 		"effect": "Roll a 6-sided dice, add what you rolled to your Damage.",
 		"damage": "x1 +?",
-		"cost": "3 Mana"
+		"cost": "3 Mana",
+		"action": "Action"
 	},
 	"Aim for the weakspot": {
 		"domains": ["Elemental"],
 		"effect": "Deal Damage equal to half of the targeted Unit’s current Health.",
 		"damage": "?",
-		"cost": "10 Mana"
+		"cost": "10 Mana",
+		"action": "Action"
 	},
 	"Enhanced Laser Rifle": {
 		"domains": ["Physical"],
 		"type": "Gear",
 		"effect": "1 Charge.",
 		"damage": "+2",
-		"range": "global"
+		"range": "global",
+		"action": "Action"
 	},
 	"Mind Control": {
 		"domains": ["Psionic"],
 		"effect": "Take control of target enemy Entity this turn.",
 		"cost": "2 Mana",
-		"range": "adjacent"
+		"range": "adjacent",
+		"action": "Bonus Action"
 	},
 	"Death Toll": {
 		"domains": ["Psionic"],
 		"effect": "Use a Card from your Discard pile without paying for its Cost.",
 		"cost": "4 Mana",
-		"range": "self"
+		"range": "self",
+		"action": "Quick Action"
 	},
 	"Rite of Midas": {
 		"domains": ["Elemental"],
-		"effect": "Banish a Card from your Hand. Gain Mana equals to that Card’s Mana cost.",
-		"range": "self"
+		"effect": "Banish a Card from the top of your Deck. Gain Mana equals to that Card’s Mana cost.",
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Side Quest": {
 		"domains": ["Elemental", "Physical", "Psionic"],
 		"effect": "Copy a Quest.",
-		"range": "self"
+		"range": "self",
+		"action": "Quick Action"
 	},
 	"Electromagnetic Pulse": {
 		"domains": ["Elemental"],
 		"effect": "Splash. All damaged Entities cannot Play Cards that require Mana until your next turn.",
 		"damage": "x1",
-		"cost": "4 Mana"
+		"cost": "4 Mana",
+		"action": "Action"
 	},
 	"Tractor Beam": {
 		"domains": ["Psionic"],
 		"effect": "Return a friendly Unit to your Unit deck and remove it from the board.",
-		"range": "global"
+		"range": "global",
+		"action": "Quick Action"
 	},
 	"Mind Flay": {
 		"domains": ["Psionic"],
 		"effect": "Deal damage to an Entity equal to their Power.",
-		"cost": "2 Mana"
+		"cost": "2 Mana",
+		"action": "Action"
 	},
 	"Weaken": {
 		"domains": ["Psionic"],
 		"effect": "Reduce the target Entity's Power by 2.",
 		"cost": "2 Mana",
-		"range": "global"
+		"range": "global",
+		"action": "Bonus Action"
 	},
 	"Teleport": {
 		"domains": ["Psionic"],
 		"effect": "Place the casting Entity on any Tile.",
 		"cost": "1 Mana",
-		"range": "global"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Future Sight": {
 		"domains": ["Psionic"],
 		"effect": "Look at the top 3 Cards of your Deck. Pick one and add it to your hand, then shuffle the rest into your Deck. You Draw 1 less Card at the end of your Turn.",
-		"range": "self"
+		"range": "self",
+		"action": "Bonus Action"
 	},
 	"Dash": {
 		"domains": ["Physical"],
 		"effect": "Double the targeted Entity's Speed this turn.",
-		"range": "unit"
+		"range": "unit",
+		"action": "Quick Action"
 	},
 	"Reality Rift": {
 		"domains": ["Psionic"],
 		"effect": "Swap this Unit's position with another Unit's position.",
-		"range": "global"
+		"range": "global",
+		"action": "Bonus Action"
 	},
 	"Shockwave": {
 		"domains": ["Psionic", "Elemental"],
-		"effect": "Splash. Knockback 2."
+		"effect": "Splash. Knockback 2.",
+		"action": "Bonus Action"
 	},
 	"Explosion": {
 		"domains": ["Elemental"],
 		"effect": "Knockback. Splash.",
 		"cost": "8 Mana",
-		"damage": "x2"
+		"damage": "x2",
+		"action": "Action"
 	},
 	"Laser": {
 		"domains": ["Physical"],
 		"type": "Gear",
 		"effect": "3 Charges. Deals Damage to all Entities in a line between the target and the casting Unit.",
-		"damage": "+1"
+		"damage": "+1",
+		"action": "Bonus Action"
 	},
 	"Forced Retreat": {
         	"domains": ["Physical"],
         	"effect": "Knockback 4.",
-        	"range": "adjacent"
+        	"range": "adjacent",
+		"action": "Action"
     	},
     	"Gatling Gun": {
         	"domains": ["Physical"],
 		"type": "Gear",
 		"effect": "6 Charges.",
         	"damage": "+2",
-        	"range": "adjacent"
+        	"range": "adjacent",
+		"action": "Bonus Action"
     	},
    	 "Magnetize": {
-       		 "domains": ["Psionic"],
-       		 "cost": "2 Mana",
-       		 "effect": "Splash 2. You can place any affected Entity anywhere else within the target radius."
+		"domains": ["Psionic"],
+         	"cost": "2 Mana",
+       		"effect": "Splash 2. You can place any affected Entity anywhere else within the target radius.",
+		"action": "Bonus Action"
     	},
    	 "Gathering Mind": {
        		 "domains": ["Psionic"],
        		 "effect": "Add an Elemental Spell Card from your Deck to your Hand.",
-       		 "range": "self"
+       		 "range": "self",
+		"action": "Bonus Action"
     	},
    	 "Portal": {
        		 "domains": ["Elemental", "Psionic"],
        		 "effect": "Put a Mark on the casting Unit’s feet, and on the targeted Tile. If a Unit steps onto a Mark, they are put on the other Mark.",
-       		 "range": "global"
+       		 "range": "global",
+		"action": "Bonus Action"
     	},
    	 "Reload": {
        		 "domains": ["Physical"],
        		 "effect": "Fully charge a Physical weapon.",
-       		 "range": "self"
+       		 "range": "self",
+		"action": "Bonus Action"
     	},
    	 "Holster": {
        		 "domains": ["Physical"],
 		 "type": "Gear",
        		 "effect": "This Units Physical Gear have +1 maximum Charge.",
-       		 "range": "self"
+       		 "range": "self",
+		"action": "Bonus Action"
     	},
    	 "Scope": {
        		 "domains": ["Physical", "Elemental"],
 		 "type": "Gear",
        		 "effect": "+1 Range.",
-       		 "range": "self"
+       		 "range": "self",
+		"action": "Bonus Action"
     	},
    	 "Reconstruct": {
        		 "domains": ["Physical", "Elemental", "Psionic"],
        		 "effect": "Move the targeted Friendly Building to a new valid location.",
-		 "range": "global"
+		 "range": "global",
+		"action": "Quick Action"
     	},
    	 "Repair": {
        		 "domains": ["Physical", "Elemental", "Psionic"],
        		 "effect": "Fully heal a Building.",
-		 "range": "global"
+		 "range": "global",
+		"action": "Quick Action"
     	},
    	 "Staff of Ice": {
        		 "domains": ["Elemental"],
 		 "type": "Gear",
        		 "effect": "Any Entity damaged by this Entity has 1 less Speed next turn.",
-		 "cost": "2 Mana"
+		 "cost": "2 Mana",
+		"action": "Bonus Action"
     	},
    	"Fangs of Nosferatu": {
 		"domains": ["Physical"],
 		"type": "Gear",
 		"range": "self",
 		"effect": "Whenever this Entity deals damage, Heal.",
-		"damage": "x1"
+		"damage": "x1",
+		"action": "Bonus Action"
 	},
 	"Fluttering Scarf": {
 		"domains": ["Psionic", "Physical"],
 		"type": "Gear",
 		"range": "self",
-		"effect": "This Entity has +1 Speed."
+		"effect": "This Entity has +1 Speed.",
+		"action": "Bonus Action"
 	},
 	"Assassination": {
 		"domains": ["Physical"],
 		"type": "Quest",
 		"range": "self",
 		"objective": "Kill a Unit.",
-		"reward": "Double all your Gear's maximum Charges."
+		"reward": "Double all your Gear's maximum Charges.",
+		"action": "Quick Action"
 	},
 	"Cold Feet": {
 		"domains": ["Elemental"],
-		"effect": "Affected Entities have 0 Speed the next Turn."
+		"effect": "Affected Entities have 0 Speed the next Turn.",
+		"action": "Bonus Action"
 	},
 	"Prominence of Power": {
 		"domains": ["Psionic", "Elemental"],
 		"range": "self",
-		"effect": "Chose a Spell from your Hand. Reveal that card and a Spell with the same name from your Deck and from your Discard Pile. Banish them all and use a copy of the chosen Spell without paying its Resource Cost."
+		"effect": "Chose a Spell from your Hand. Reveal that card and a Spell with the same name from your Deck and from your Discard Pile. Banish them all and use a copy of the chosen Spell without paying its Resource Cost.",
+		"action": "Bonus Action"
 	},
 	"Disarm": {
 		"domains": ["Psionic", "Elemental", "Physical"],
 		"range": "Adjacent",
-		"effect": "Remove 1 Gear from the targeted Entity."
+		"effect": "Remove 1 Gear from the targeted Entity.",
+		"action": "Bonus Action"
 	},
 	"Rebounding Shot": {
 		"domains": ["Elemental"],
 		"cost": "2 Mana",
 		"effect": "After dealing Damage, you may target another Unit Adjacent to the targeted Entity and use this Spell on it without paying for its Cost. This Spell may only target the same Unit once per turn.",
-		"damage": "x1"
+		"damage": "x1",
+		"action": "Action"
 	},
 	"High Energy Shield": {
 		"domains": ["Elemental", "Physical"],
 		"type": "Counter",
 		"cost": "2 Mana",
-		"effect": "Negate all Damage from a Spell."
+		"effect": "Negate all Damage from a Spell.",
+		"action": "Reaction"
 	},
 	"Reflect": {
 		"domains": ["Psionic", "Elemental"],
 		"type": "Counter",
 		"range": "self",
-		"effect": "Reflect a Spell that targets the casting Unit back to the Caster. The casting Unit is still affected by the Spell."
+		"effect": "Reflect a Spell that targets the casting Unit back to the Caster. The casting Unit is still affected by the Spell.",
+		"action": "Reaction"
 	},
 	"Counter Counter": {
 		"domains": ["Psionic", "Elemental", "Physical"],
 		"type": "Counter",
-		"effect": "Negate a Counter Spell."
+		"effect": "Negate a Counter Spell.",
+		"action": "Reaction"
 	},
 	"Adrenaline Rush": {
 		"domains": ["Psionic", "Elemental", "Physical"],
 		"type": "Counter",
 		"range": "self",
-		"effect": "When a Friendly Unit is targeted by a Spell you can Cast this Counter from the targeted Unit. That unit can instantly move up to as many Tiles as it has Speed."
+		"effect": "When a Friendly Unit is targeted by a Spell you can Cast this Counter from the targeted Unit. That unit can instantly move up to as many Tiles as it has Speed.",
+		"action": "Reaction"
 	},
 	"Cleanse of Sins": {
 		"domains": ["Elemental", "Psionic"],
 		"type": "Quest",
 		"range": "self",
 		"objective": "Restore 20 Health.",
-		"reward": "Target Friendly Unit gains 10 Maximum Health and is restored to full Health."
+		"reward": "Target Friendly Unit gains 10 Maximum Health and is restored to full Health.",
+		"action": "Quick Action"
 	},
 	"Soul Siphon": {
 		"cost": "2 Mana",
 		"domains": ["Elemental"],
 		"type": "Spell",
 		"effect": "When this Card deals Damage, Heal the Casting Unit for the same amount.",
-		"damage": "x1"
+		"damage": "x1",
+		"action": "Action"
 	},
 	"Frost Wraith": {
 		"cost": "4 Mana",
 		"domains": ["Elemental"],
 		"type": "Spell",
 		"range": "global",
-		"effect": "Summon a Frost Wraith Minion adjacent to the casting Unit. The Frost Wraith has 0 Power, 0 Range and 1 Speed. The Frost Wraith cannot be summoned next to an Enemy Unit. The Frost Wraith moves one tile closer to the target every turn. If the Frost Wraith cannot move closer to the target when it is supposed to it is instantly destroyed. When the Frost Wraith is adjacent to the target the Frost Wraith is Destroyed and Targeted Unit takes x3 Damage."
+		"effect": "Summon a Frost Wraith Minion adjacent to the casting Unit. The Frost Wraith has 0 Power, 0 Range and 1 Speed. The Frost Wraith cannot be summoned next to an Enemy Unit. The Frost Wraith moves one tile closer to the target every turn. If the Frost Wraith cannot move closer to the target when it is supposed to it is instantly destroyed. When the Frost Wraith is adjacent to the target the Frost Wraith is Destroyed and Targeted Unit takes x3 Damage.",
+		"action": "Action"
 	},
 	"Unholy Arrow": {
 		"cost": "1 Mana",
 		"domains": ["Elemental"],
 		"type": "Spell",
 		"effect": "If the targeted Entity is still in range at the start of your next Turn, deal x2 Damage to it. If it is not in range at the start of your next Turn this Spell fails. The casting Unit cannot move until this Spell has failed or dealt Damage.",
+		"action": "Bonus Action"
 	},
 	"Static Rain": {
 		"cost": "2 Mana",
 		"domains": ["Elemental"],
 		"type": "Spell",
 		"effect": "Place a Marker. Any Entity standing in the same Tile as this Marker takes 1 Damage at the start of any turn.",
+		"action": "Bonus Action"
 	},
 	"Starfall": {
 		"cost": "8 Mana",
@@ -440,7 +518,8 @@
 		"type": "Spell",
 		"range": "global",
 		"effect": "Also deals damage to an Entity adjacent to the targeted Entity",
-		"damage": "x2 +1"
+		"damage": "x2 +1",
+		"action": "Action"
 	},
 	"Mirror Image": {
 		"cost": "2 Mana",
@@ -448,6 +527,7 @@
 		"type": "Spell",
 		"range": "self",
 		"effect": "Summon a Minion adjacent to the casting Unit with Half of the casting Unit's Power, Range, Speed, and current Health. This Minion counts as a Unit.",
+		"action": "Bonus Action"
 	},
 	"Cloak of Shadows": {
 		"cost": "2 Mana",
@@ -455,12 +535,14 @@
 		"type": "Spell",
 		"range": "self",
 		"effect": "Until your next Turn the casting Unit is untargetable by Effects and Actions.",
+		"action": "Bonus Action"
 	},
 	"Call of Demonic Rage": {
 		"domains": ["Elemental", "Psionic"],
 		"type": "Spell",
 		"range": "self",
 		"effect": "All Friendly Entities in a 1 Tile AoE of the Casting Unit takes half of their maximum Health as Damage then permanently halves their maximum Health and permanently doubles their Power. This effect does not affect the Caster.",
+		"action": "Action"
 	},
 	"Ray Cannon": {
 		"cost": "20 Mana",
@@ -468,7 +550,8 @@
 		"type": "Spell",
 		"range": "Global",
 		"effect": "Deals Damage to all Entities in a line between the target and the casting Unit.",
-		"damage": "x3 +1"
+		"damage": "x3 +1",
+		"action": "Action"
 	},
 	"Catastrophic Orb of Absolute Destruction": {
 		"cost": "20 Mana",
@@ -476,21 +559,24 @@
 		"type": "Spell",
 		"range": "adjacent",
 		"effect": "Splash 2.",
-		"damage": "x4"
+		"damage": "x4",
+		"action": "Action"
 	},
 	"Severing Lash": {
 		"cost": "3 Mana",
 		"domains": ["Elemental"],
 		"type": "Spell",
 		"effect": "A Unit damaged by this Spell have their Power permanently reduced by 1.",
-		"damage": "+3"
+		"damage": "+3",
+		"action": "Action"
 	},
 	"Clear Skies": {
 		"cost": "4 Mana",
 		"domains": ["Psionic"],
 		"type": "Spell",
 		"effect": "Heal. Splash.",
-		"damage": "+3"
+		"damage": "+3",
+		"action": "Action"
 	},
 	"Hourglass of Fate": {
 		"cost": "5 Mana",
@@ -498,23 +584,27 @@
 		"type": "Spell",
 		"range": "self",
 		"effect": "Your opponent(s) skip their next turn. You cannot damage Entities until the end of your next turn.",
+		"action": "Action"
 	},
 	"Soul Swap": {
 		"cost": "4 Mana",
 		"domains": ["Elemental", "Psionic"],
 		"type": "Spell",
 		"effect": "The targeted Entity and the casting Unit swaps Abilities. If one or both Units does not have an Ability this Card Fails.",
+		"action": "Bonus Action"
 	},
 	"Haunt": {
 		"cost": "2 Mana",
 		"domains": ["Elemental", "Psionic"],
 		"type": "Spell",
 		"effect": "Targeted Unit or Minion loses 1 Speed at the start of the controlling Player's turn. If the Unit's or Minion's Speed reaches 0 it becomes Stunned for 1 Turn. If the targeted Unit starts its Turn with 0 Speed it regains all Speed lost by Haunt.",
+		"action": "Bonus Action"
 	},
 	"Reflex": {
 		"domains": ["Physical"],
 		"type": "Counter",
 		"effect": "When a Unit is targeted by a damaging Spell; Reduce the Damage of the Spell by 4.",
+		"action": "Reaction"
 	},
 	"Illusion of Armor": {
 		"cost": "1 Mana",
@@ -522,6 +612,7 @@
 		"type": "Counter",
 		"range": "self",
 		"effect": "Incrase the target's maximum Health by 10 then Heal it for 10. On the start of your next turn, the target takes 10 Damage and its maximum Health is reduced by 10.",
+		"action": "Reaction"
 	},
 	"Demonic Bolt": {
 		"cost": "4 Mana",
@@ -529,7 +620,8 @@
 		"type": "Counter",
 		"range": "global",
 		"effect": "When an Entity would be Healed you can use this Card on that Unit. This Card's Power is equal to the amount Healed x3.",
-		"damage": "?"
+		"damage": "?",
+		"action": "Reaction"
 	},
 	"Last Wish": {
 		"cost": "4 Mana",
@@ -537,11 +629,13 @@
 		"type": "Counter",
 		"range": "self",
 		"effect": "When one of your Units would die you may activate this Card. That Unit cannot die until the start of the current Player's next Turn.",
+		"action": "Reaction"
 	},
 	"Smite": {
 		"cost": "5 Mana",
 		"domains": ["Elemental"],
 		"type": "Counter",
 		"effect": "Negate a Spell.",
-	},
+		"action": "Reaction"
+	}
 }
