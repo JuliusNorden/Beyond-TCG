@@ -76,5 +76,19 @@
 		"health": "5",
 		"effect": "At the start of your Turn, summon one Minion in a 2 Tile AoE from this Building for every Unit you control.",
 		"upgradesFrom": "Barracks"
+        },
+	"Stable": {
+		"health": "5",
+		"effect": "Your Minions have +1 Speed.",
+		"upgradesFrom": "Barracks"
+        },
+	"Artillery": {
+		"health": "5",
+		"effect": "At the end of your turn, deal 2 Damage to an Enemy Unit.",
+		"upgradesFrom": "Fire Sorceress Tower"
+        },
+	"Military Idol": {
+		"health": "5",
+		"effect": "If an Enemy Unit Casts a Spell that does Damage it must target this Building, if possible."
         }
 }
