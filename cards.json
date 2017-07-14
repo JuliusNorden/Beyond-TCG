@@ -92,13 +92,13 @@
 	},
 	"Toll Fee": {
 		"domains": ["Physical"],
-		"effect": "Add 1 Gear from your Deck to your Hand.",
+		"effect": "Add 1 Gear from your Deck to your Hand. You Draw 1 less Card at the end of your Turn.",
 		"range": "self",
 		"action": "Bonus Action"
 	},
 	"Recycle": {
 		"domains": ["Psionic"],
-		"effect": "Add 1 Card from your Discard pile to your Hand.",
+		"effect": "Add 1 Card from your Discard pile to your Hand. You Draw 1 less Card at the end of your Turn.",
 		"cost": "1 Mana",
 		"range": "self",
 		"action": "Bonus Action"
@@ -351,7 +351,7 @@
     	},
    	 "Gathering Mind": {
        		 "domains": ["Psionic"],
-       		 "effect": "Add an Elemental Spell Card from your Deck to your Hand.",
+       		 "effect": "Add an Elemental Spell Card from your Deck to your Hand. You Draw 1 less Card at the end of your Turn.",
        		 "range": "self",
 		"action": "Bonus Action"
     	},
