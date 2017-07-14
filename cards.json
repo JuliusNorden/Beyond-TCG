@@ -482,7 +482,7 @@
 		"cost": "3 Mana",
 		"domains": ["Elemental"],
 		"type": "Spell",
-		"effect": "A Unit damaged by this Spelkl have their Power permanently reduced by 1.",
+		"effect": "A Unit damaged by this Spell have their Power permanently reduced by 1.",
 		"damage": "+3"
 	},
 	"Clear Skies": {
