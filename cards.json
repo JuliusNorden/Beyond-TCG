@@ -400,5 +400,148 @@
 		"type": "Counter",
 		"range": "self",
 		"effect": "When a Friendly Unit is targeted by a Spell you can Cast this Counter from the targeted Unit. That unit can instantly move up to as many Tiles as it has Speed."
-	}
+	},
+	"Cleanse of Sins": {
+		"domains": ["Elemental", "Psionic"],
+		"type": "Quest",
+		"range": "self",
+		"objective": "Restore 20 Health.",
+		"reward": "Target Friendly Unit gains 10 Maximum Health and is restored to full Health."
+	},
+	"Soul Siphon": {
+		"cost": "2 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"effect": "When this Card deals Damage, Heal the Casting Unit for the same amount.",
+		"damage": "x1"
+	},
+	"Frost Wraith": {
+		"cost": "4 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"range": "global",
+		"effect": "Summon a Frost Wraith Minion adjacent to the casting Unit. The Frost Wraith has 0 Power, 0 Range and 1 Speed. The Frost Wraith cannot be summoned next to an Enemy Unit. The Frost Wraith moves one tile closer to the target every turn. If the Frost Wraith cannot move closer to the target when it is supposed to it is instantly destroyed. When the Frost Wraith is adjacent to the target the Frost Wraith is Destroyed and Targeted Unit takes x3 Damage."
+	},
+	"Unholy Arrow": {
+		"cost": "1 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"effect": "If the targeted Entity is still in range at the start of your next Turn, deal x2 Damage to it. If it is not in range at the start of your next Turn this Spell fails. The casting Unit cannot move until this Spell has failed or dealt Damage.",
+	},
+	"Static Rain": {
+		"cost": "2 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"effect": "Place a Marker. Any Entity standing in the same Tile as this Marker takes 1 Damage at the start of any turn.",
+	},
+	"Starfall": {
+		"cost": "8 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"range": "global",
+		"effect": "Also deals damage to an Entity adjacent to the targeted Entity",
+		"damage": "x2 +1"
+	},
+	"Mirror Image": {
+		"cost": "2 Mana",
+		"domains": ["Elemental", "Psionic"],
+		"type": "Spell",
+		"range": "self",
+		"effect": "Summon a Minion adjacent to the casting Unit with Half of the casting Unit's Power, Range, Speed, and current Health. This Minion counts as a Unit.",
+	},
+	"Cloak of Shadows": {
+		"cost": "2 Mana",
+		"domains": ["Elemental", "Psionic"],
+		"type": "Spell",
+		"range": "self",
+		"effect": "Until your next Turn the casting Unit is untargetable by Effects and Actions.",
+	},
+	"Call of Demonic Rage": {
+		"domains": ["Elemental", "Psionic"],
+		"type": "Spell",
+		"range": "self",
+		"effect": "All Friendly Entities in a 1 Tile AoE of the Casting Unit takes half of their maximum Health as Damage then permanently halves their maximum Health and permanently doubles their Power. This effect does not affect the Caster.",
+	},
+	"Ray Cannon": {
+		"cost": "20 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"range": "Global",
+		"effect": "Deals Damage to all Entities in a line between the target and the casting Unit.",
+		"damage": "x3 +1"
+	},
+	"Catastrophic Orb of Absolute Destruction": {
+		"cost": "20 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"range": "adjacent",
+		"effect": "Splash 2.",
+		"damage": "x4"
+	},
+	"Severing Lash": {
+		"cost": "3 Mana",
+		"domains": ["Elemental"],
+		"type": "Spell",
+		"effect": "A Unit damaged by this Spelkl have their Power permanently reduced by 1.",
+		"damage": "+3"
+	},
+	"Clear Skies": {
+		"cost": "4 Mana",
+		"domains": ["Psionic"],
+		"type": "Spell",
+		"effect": "Heal. Splash.",
+		"damage": "+3"
+	},
+	"Hourglass of Fate": {
+		"cost": "5 Mana",
+		"domains": ["Elemental", "Psionic"],
+		"type": "Spell",
+		"range": "self",
+		"effect": "Your opponent(s) skip their next turn. You cannot damage Entities until the end of your next turn.",
+	},
+	"Soul Swap": {
+		"cost": "4 Mana",
+		"domains": ["Elemental", "Psionic"],
+		"type": "Spell",
+		"effect": "The targeted Entity and the casting Unit swaps Abilities. If one or both Units does not have an Ability this Card Fails.",
+	},
+	"Haunt": {
+		"cost": "2 Mana",
+		"domains": ["Elemental", "Psionic"],
+		"type": "Spell",
+		"effect": "Targeted Unit or Minion loses 1 Speed at the start of the controlling Player's turn. If the Unit's or Minion's Speed reaches 0 it becomes Stunned for 1 Turn. If the targeted Unit starts its Turn with 0 Speed it regains all Speed lost by Haunt.",
+	},
+	"Reflex": {
+		"domains": ["Physical"],
+		"type": "Counter",
+		"effect": "When a Unit is targeted by a damaging Spell; Reduce the Damage of the Spell by 4.",
+	},
+	"Illusion of Armor": {
+		"cost": "1 Mana",
+		"domains": ["Elemental"],
+		"type": "Counter",
+		"range": "self",
+		"effect": "Incrase the target's maximum Health by 10 then Heal it for 10. On the start of your next turn, the target takes 10 Damage and its maximum Health is reduced by 10.",
+	},
+	"Demonic Bolt": {
+		"cost": "4 Mana",
+		"domains": ["Elemental"],
+		"type": "Counter",
+		"range": "global",
+		"effect": "When an Entity would be Healed you can use this Card on that Unit. This Card's Power is equal to the amount Healed x3.",
+		"damage": "?"
+	},
+	"Last Wish": {
+		"cost": "4 Mana",
+		"domains": ["Elemental", "Psionic"],
+		"type": "Counter",
+		"range": "self",
+		"effect": "When one of your Units would die you may activate this Card. That Unit cannot die until the start of the current Player's next Turn.",
+	},
+	"Smite": {
+		"cost": "5 Mana",
+		"domains": ["Elemental"],
+		"type": "Counter",
+		"effect": "Negate a Spell.",
+	},
 }
