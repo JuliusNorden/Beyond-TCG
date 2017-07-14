@@ -156,6 +156,6 @@
 		"range": "1",
 		"speed": "3",
 		"gearSlots": "1",
-		"effect": "Action: Deal 2 Damage; This unit can move with his Speed again."
+		"effect": "Action: Deal 2 Damage; This Unit gains 1 Move Action."
 	}
 }
