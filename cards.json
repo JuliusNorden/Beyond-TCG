@@ -578,14 +578,6 @@
 		"damage": "+3",
 		"action": "Action"
 	},
-	"Hourglass of Fate": {
-		"cost": "5 Mana",
-		"domains": ["Elemental", "Psionic"],
-		"type": "Spell",
-		"range": "self",
-		"effect": "Your opponent(s) skip their next turn. You cannot damage Entities until the end of your next turn.",
-		"action": "Action"
-	},
 	"Soul Swap": {
 		"cost": "4 Mana",
 		"domains": ["Elemental", "Psionic"],
