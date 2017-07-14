@@ -24,7 +24,7 @@
                 "range": "2",
                 "speed": "2",
 		"gearSlots": "1",
-		"effect": "Action: Take 2 Damage; deal 1x Damage."
+		"effect": "Action: Take 2 Damage; deal x1 Damage."
 	},
 	"Trophy Beast": {
 		"health": "20",
@@ -113,7 +113,7 @@
 		"range": "2",
 		"speed": "2",
 		"gearSlots": "2",
-		"effect": "You can construct 1 extra Basic building each turn. Has double range when placing Buildings.",
+		"effect": "After placing a Building, except from this effect, you can place 1 extra Basic building. Has double range when placing Buildings.",
 	},
         "Kharen, the Bounty Hunter": {
 		"domains": ["Physical"],
@@ -129,7 +129,8 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"gearSlots": "1"
+		"gearSlots": "1",
+		"effect": "Each turn the first Action, Bonus Action, Move Action, or Reaction used by Sage of the Forest counts as a Quick Action."
 	},
         "Ancient Wizard": {
 		"domains": ["Elemental"],
