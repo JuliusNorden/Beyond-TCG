@@ -2,52 +2,47 @@
 	"Colossal": {
 		"health": "20",
                 "domains": ["Physical"],
-		"effect": "At the end of each of your turns, Heal this unit for 2.",
                 "power": "2",
                 "range": "1",
                 "speed": "2",
 		"gearSlots": "2",
-		"spellSlots": "1"
+		"effect": "At the end of each of your turns, Heal this unit for 2."
 	},
 	"Leprechaun": {
 		"health": "20",
                 "domains": ["Physical"],
-		"effect": "Whenever you gain Charges from a Card other than by this effect; you gain 1 additional Charge.",
                 "power": "2",
                 "range": "2",
                 "speed": "2",
 		"gearSlots": "2",
-		"spellSlots": "1"
+		"effect": "Whenever you gain Charges from a Card other than by this effect; you gain 1 additional Charge."
 	},
 	"High-Elf Shaman": {
 		"health": "20",
                 "domains": ["Psionic"],
-		"effect": "Action: Take 2 Damage; deal 1x Damage.",
                 "power": "2",
                 "range": "2",
                 "speed": "2",
 		"gearSlots": "1",
-		"spellSlots": "1"
+		"effect": "Action: Take 2 Damage; deal 1x Damage."
 	},
 	"Trophy Beast": {
 		"health": "20",
                 "domains": ["Elemental", "Psionic"],
-		"effect": "When this Unit dies; Your opponent gains 10 Mana.",
                 "power": "2",
                 "range": "2",
                 "speed": "3",
 		"gearSlots": "1",
-		"spellSlots": "1"
+		"effect": "When this Unit dies; Your opponent gains 10 Mana."
 	},
 	"G'ok the Moving Earth": {
 		"health": "20",
                 "domains": ["Physical"],
-		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 10.",
                 "power": "4",
                 "range": "1",
                 "speed": "2",
 		"gearSlots": "2",
-		"spellSlots": "1"
+		"effect": "The maximum amount of Damage that can be dealt to this unit each turn is 10."
 	},
 	"Magic Presence": {
 		"health": "20",
@@ -55,9 +50,8 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"effect": "Friendly units adjacent to this unit have +2 Power.",
 		"gearSlots": "1",
-		"spellSlots": "1"
+		"effect": "Friendly units adjacent to this unit have +2 Power."
 	},
 	"Bandit Chieftain": {
 		"health": "20",
@@ -65,9 +59,8 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"effect": "Action: Pay 1 Mana. Add a Card that has a Mana cost greater than 2 Mana from your Deck to your Hand.",
 		"gearSlots": "2",
-		"spellSlots": "1"
+		"effect": "Action: Pay 1 Mana. Add a Card that has a Mana cost greater than 2 Mana from your Deck to your Hand."
 	},
 	"Arch-mage": {
 		"health": "20",
@@ -75,9 +68,8 @@
 		"power": "0",
 		"range": "3",
 		"speed": "2",
-		"effect": "When you spend 3 or more Mana; Gain 1 Power.",
 		"gearSlots": "1",
-		"spellSlots": "1"
+		"effect": "When you spend 3 or more Mana; Gain 1 Power."
 	},
 	"The Ferryman": {
 		"health": "20",
@@ -85,9 +77,8 @@
 		"power": "2",
 		"range": "1",
 		"speed": "2",
-		"effect": "Action: Pay 2 Mana; add 1 Card from your Discard pile to your Hand.",
 		"gearSlots": "1",
-		"spellSlots": "1"
+		"effect": "Action: Pay 2 Mana; add 1 Card from your Discard pile to your Hand."
 	},
 	"King's Brood": {
 		"domains": ["Physical", "Psionic", "Elemental"],
@@ -95,9 +86,8 @@
 		"power": "0",
 		"range": "0",
 		"speed": "0",
-		"effect": "At the start of your Turn, summon 2 Minions.",
 		"gearSlots": "0",
-		"spellSlots": "1"
+		"effect": "At the start of your Turn, summon 2 Minions."
 	},
         "Tortola, Crystalline Tortoise": {
 		"domains": ["Elemental"],
@@ -105,9 +95,8 @@
 		"power": "6",
 		"range": "1",
 		"speed": "1",
-		"effect": "Ignores range bonuses on Cards.",
 		"gearSlots": "1",
-		"spellSlots": "1"
+		"effect": "Ignores range bonuses on Cards."
 	},
         "White Steed": {
 		"domains": ["Psionic"],
@@ -115,8 +104,7 @@
 		"power": "0",
 		"range": "0",
 		"speed": "5",
-		"gearSlots": "1",
-		"spellSlots": "1"
+		"gearSlots": "1"
 	},
         "Clockwork, the Great Machine": {
 		"domains": ["Physical"],
@@ -124,9 +112,8 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"effect": "You can construct 1 extra Basic building each turn. Has double range when placing Buildings.",
 		"gearSlots": "2",
-		"spellSlots": "1"
+		"effect": "You can construct 1 extra Basic building each turn. Has double range when placing Buildings.",
 	},
         "Kharen, the Bounty Hunter": {
 		"domains": ["Physical"],
@@ -134,8 +121,7 @@
 		"power": "2",
 		"range": "4",
 		"speed": "1",
-		"gearSlots": "2",
-		"spellSlots": "1"
+		"gearSlots": "2"
 	},
         "Sage of the Forest": {
 		"domains": ["Elemental"],
@@ -143,8 +129,7 @@
 		"power": "2",
 		"range": "2",
 		"speed": "2",
-		"gearSlots": "0",
-		"spellSlots": "2"
+		"gearSlots": "1"
 	},
         "Ancient Wizard": {
 		"domains": ["Elemental"],
@@ -153,7 +138,6 @@
 		"range": "2",
 		"speed": "2",
 		"gearSlots": "1",
-		"spellSlots": "1",
 		"effect": "Action: Gain 1 Mana."
 	},
         "Succubus": {
@@ -163,7 +147,15 @@
 		"range": "2",
 		"speed": "1",
 		"gearSlots": "1",
-		"spellSlots": "1",
 		"effect": "Units Damaged by this Unit cannot move further than 3 Tiles away from this Unit during their next turn."
+	},
+        "Werewolf": {
+		"domains": ["Physical"],
+		"health": "20",
+		"power": "2",
+		"range": "1",
+		"speed": "3",
+		"gearSlots": "1",
+		"effect": "Action: Deal 2 Damage; This unit can move with his Speed again."
 	}
 }
