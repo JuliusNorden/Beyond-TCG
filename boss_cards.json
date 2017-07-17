@@ -51,7 +51,7 @@
 		"range": "2",
 		"speed": "2",
 		"gearSlots": "1",
-		"effect": "Friendly units adjacent to this unit have +2 Power."
+		"effect": "Friendly Units adjacent to this unit have +2 Power."
 	},
 	"Bandit Chieftain": {
 		"health": "20",
