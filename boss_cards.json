@@ -33,7 +33,7 @@
                 "range": "2",
                 "speed": "3",
 		"gearSlots": "1",
-		"effect": "When this Unit dies; Your opponent gains 10 Mana."
+		"effect": "When this Unit dies; The Player that killed it gains 10 Mana."
 	},
 	"G'ok the Moving Earth": {
 		"health": "20",
