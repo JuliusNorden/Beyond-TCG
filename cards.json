@@ -23,7 +23,7 @@
 	"Longsword": {
 		"domains": ["Physical"],
 		"type": "Gear",
-		"damage": "+2",
+		"damage": "+1",
 		"range": "adjacent",
 		"action": "Bonus Action"
 	},
@@ -582,6 +582,7 @@
 		"cost": "4 Mana",
 		"domains": ["Elemental", "Psionic"],
 		"type": "Spell",
+		"range": "adjacent",
 		"effect": "The targeted Entity and the casting Unit swaps Abilities. If one or both Units does not have an Ability this Card Fails.",
 		"action": "Bonus Action"
 	},
@@ -611,7 +612,7 @@
 		"domains": ["Elemental"],
 		"type": "Counter",
 		"range": "global",
-		"effect": "When an Entity would be Healed you can use this Card on that Unit. This Card's Power is equal to the amount Healed x3.",
+		"effect": "When an Entity would be Healed you can use this Card on that Unit. Cancel the Heal effect and deal Damage to the Entity equal to the amount that would be Healed x3.",
 		"damage": "?",
 		"action": "Reaction"
 	},
