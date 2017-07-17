@@ -550,7 +550,7 @@
 		"type": "Spell",
 		"range": "Global",
 		"effect": "Deals Damage to all Entities in a line between the target and the casting Unit.",
-		"damage": "x3 +1",
+		"damage": "x3 +2",
 		"action": "Action"
 	},
 	"Catastrophic Orb of Absolute Destruction": {
